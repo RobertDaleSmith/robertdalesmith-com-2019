@@ -1,19 +1,83 @@
 @import '_reset.scss';
+@import '../fonts/foundation-icons.css';
 
-@import '~foundation-sites/scss/util/util';
-@import '_settings.scss';
-@import '~foundation-sites/scss/foundation';
+// @import '~foundation-sites/scss/util/util';
+// @import '_settings.scss';
+// @import '~foundation-sites/scss/foundation';
+// @include foundation-everything;
 
-@include foundation-everything;
+// @import url('https://fonts.googleapis.com/css?family=Muli|Open+Sans&display=swap');
 
 body {
   background: #fff;
-  
-  h1 {
-    color: #000;
-  }
-}
+  font-family: Arial,verdana,sans-serif;
 
-#body_wrapper {
-  padding: 16px;
+  #wrapper {
+    padding: 16px;
+    text-align: center;
+
+    .logo {
+      color: #222;
+      font-size: 32px;
+      text-align: center;
+
+      margin-bottom: 24px;
+    }
+
+    .mugshot {
+      width: 320px;
+
+      margin-bottom: 24px;
+    }
+
+    .social_links {
+      display: inline-block;
+      position: relative;
+
+      a.social {
+        display: inline-block;
+        position: relative;
+        border-radius: 100%;
+        border-width: 0px;
+        border-style: solid;
+        border-color: #000;
+        height: 32px;
+        width: 32px;
+        line-height: 32px;
+        font-size: 24px;
+        font-weight: 800;
+        text-align: center;
+        text-decoration: none;
+        color: #222;
+        float: left;
+        margin: 4px;
+
+        &:hover {
+          color: inherit;
+          opacity: 0.8;
+
+          &.facebook {
+            color: #1976f2;
+            opacity: 1;
+          }
+          &.twitter {
+            color: #1ca1f2;
+            opacity: 1;
+          }
+          &.github {
+            color: #000000;
+            opacity: 0.666;
+          }
+          &.linkedin {
+            color: #0177af;
+            opacity: 1;
+          }
+        }
+
+
+      }
+    }
+
+    
+  }
 }
