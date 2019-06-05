@@ -9,13 +9,13 @@ module.exports = {
     app: './src/main.js'
   },
   devServer: {
-    contentBase: './dist',
+    contentBase: './build',
     compress: false,
     port: 3000,
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'build'),
     publicPath: '/'
   },
   watch: true,

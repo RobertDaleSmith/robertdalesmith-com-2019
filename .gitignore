@@ -1,4 +1,4 @@
-dist
+build
 source
 node_modules
 public/build/*.js
