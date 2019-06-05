@@ -1,0 +1,7 @@
+@import '~foundation-sites/scss/util/util';
+@import 'foundation-settings.scss';
+@import '~foundation-sites/scss/foundation';
+
+@include foundation-everything;
+
+@import '../fonts/foundation-icons.css';

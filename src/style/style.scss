@@ -1,43 +1,120 @@
 @import '_reset.scss';
 
-// @import '../fonts/foundation-icons.css';
-// @import '~foundation-sites/scss/util/util';
-// @import '_settings.scss';
-// @import '~foundation-sites/scss/foundation';
-// @include foundation-everything;
-
+// @import 'foundation-styles.scss';
 // @import url('https://fonts.googleapis.com/css?family=Muli|Open+Sans&display=swap');
 
 body {
   color: #222;
   background: #fff;
-  font-family: Arial,verdana,sans-serif;
+
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
 
   .main_wrapper {
-    padding: 16px;
+    padding: 16px 4px;
     text-align: center;
 
-    h1.name {
-      color: #222;
-      font-size: 32px;
-      text-transform: uppercase;
-      letter-spacing: 0.03em;
+    div.header_wrapper {
+      margin: 0 12px;
 
-      line-height: 34px;
-      margin-bottom: 16px;
+      h1.name {
+        color: #222;
+        font-size: 32px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+
+        font-weight: 400;
+        line-height: 34px;
+        margin-bottom: 16px;
+      }
+
+      h2.title {
+        color: #222;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+
+        font-weight: 400;
+        line-height: 18px;
+        margin-bottom: 16px;
+      }
     }
 
-    h2.title {
-      color: #222;
-      font-size: 16px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
+    div.social_wrapper {
+      span.social_links {
+        display: inline-block;
+        position: relative;
+        margin-bottom: 24px;
 
-      line-height: 18px;
-      margin-bottom: 16px;
+        a.social {
+          display: inline-block;
+          position: relative;
+
+          height: 40px;
+          width: 40px;
+
+          color: #222;
+          fill: #222;
+
+          font-size: 32px;
+          font-weight: 800;
+          line-height: 42px;
+          text-align: center;
+          text-decoration: none;
+
+          border-radius: 16px;
+          border-width: 0px;
+          border-style: solid;
+          border-color: #000;
+
+          svg, img {
+            height: 24px;
+            width: 24px;
+          }
+
+          &:hover {
+            background: rgba(250, 250, 250, 1);
+
+            color: inherit;
+            fill: inherit;
+            opacity: 0.8;
+
+            &.facebook {
+              color: #1976f2;
+              fill: #1976f2;
+              opacity: 1;
+            }
+            &.instagram {
+              color: #E4405F;
+              fill: #E4405F;
+              opacity: 1;
+            }
+            &.twitter {
+              color: #1DA1F2;
+              fill: #1DA1F2;
+              opacity: 1;
+            }
+            &.github {
+              color: #181717;
+              fill: #181717;
+              opacity: 1;
+            }
+            &.linkedin {
+              color: #0077B5;
+              fill: #0077B5;
+              opacity: 1;
+            }
+            &.strava {
+              color: #fc4c01;
+              fill: #fc4c01;
+              opacity: 1;
+            }
+          }
+        }
+      }
     }
 
-    .about_wrapper {
+    div.about_wrapper {
       display: inline-block;
       position: relative;
       max-width: 100%;
@@ -49,102 +126,38 @@ body {
         position: relative;
 
         width: 320px;
-        max-width: 100%;
-
-        margin-bottom: 24px;
+        max-width: calc(100% - 24px);
+        margin: 0 12px 24px;
       }
 
       p.bio {
         display: inline-block;
         position: relative;
 
-        width: 320px;
-        max-width: calc(100% - 48px);
-        text-align: left;
-        margin-bottom: 24px;
-        padding: 0 24px;
-        vertical-align: top;
-        line-height: 26px;
         letter-spacing: 0.015em;
+        vertical-align: top;
         text-align: justify;
+        line-height: 26px;
+
+        width: 320px;
+        max-width: calc(100% - 24px);
+        margin: 0 12px 24px;
       }
 
       @media screen and (max-width: 368px) {
         p.bio {
-          padding: 0px;
-          max-width: calc(100% - 0px);
+
         }
       }
     }
 
-    span.social_links {
-      display: inline-block;
-      position: relative;
-      margin-bottom: 24px;
+    div.footer_wrapper {
+      margin: 0 12px;
 
-      a.social {
+      .copyright {
         display: inline-block;
-        position: relative;
-        border-radius: 16px;
-        border-width: 0px;
-        border-style: solid;
-        border-color: #000;
-        height: 40px;
-        width: 40px;
-        line-height: 42px;
-        font-size: 32px;
-        font-weight: 800;
-        text-align: center;
-        text-decoration: none;
-        color: #222;
-
-        svg, img {
-          height: 24px;
-          width: 24px;
-        }
-
-        &:hover {
-          color: inherit;
-          opacity: 0.8;
-          background: rgba(250, 250, 250, 1);
-
-          &.facebook {
-            color: #1976f2;
-            fill: #1976f2;
-            opacity: 1;
-          }
-          &.instagram {
-            color: #E4405F;
-            fill: #E4405F;
-            opacity: 1;
-          }
-          &.twitter {
-            color: #1DA1F2;
-            fill: #1DA1F2;
-            opacity: 1;
-          }
-          &.github {
-            color: #181717;
-            fill: #181717;
-            opacity: 1;
-          }
-          &.linkedin {
-            color: #0077B5;
-            fill: #0077B5;
-            opacity: 1;
-          }
-          &.strava {
-            color: #fc4c01;
-            fill: #fc4c01;
-            opacity: 1;
-          }
-        }
+        margin-top: 48px;
       }
-    }
-
-    .copyright {
-      display: inline-block;
-      margin-top: 48px;
     }
   }
 }
