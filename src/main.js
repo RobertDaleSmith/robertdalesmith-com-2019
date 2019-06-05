@@ -1,3 +1,3 @@
-import style from './style.scss';
+import style from './style/style.scss';
 
 console.log("RobertDaleSmith.com..");

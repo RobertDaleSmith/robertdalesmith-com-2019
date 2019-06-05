@@ -31,12 +31,16 @@ module.exports = {
         } 
       },
       {
-        test: /\.scss$/,
+        test: /.(?:sass|scss)$/,
         use: [
           'style-loader',
           MiniCssExtractPlugin.loader,
-          'css-loader',
-          'sass-loader'
+          'css-loader', {
+            loader: 'sass-loader',
+            query: {
+              includePaths: [path.resolve(__dirname, 'node_modules')]
+            }
+          }
         ]
       },
       {
@@ -70,5 +74,8 @@ module.exports = {
       title: 'RobertDaleSmith.com',
       template: './src/index.html'
     }),
+  ],
+  externals: [
+    'foundation-sites'
   ]
 };

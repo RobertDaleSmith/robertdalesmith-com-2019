@@ -1,0 +1,15 @@
+@import '_reset.scss';
+
+@import '~foundation-sites/scss/util/util';
+@import '_settings.scss';
+@import '~foundation-sites/scss/foundation';
+
+@include foundation-everything;
+
+body {
+  background: #fff;
+  
+  h1 {
+    color: #00f;
+  }
+}
