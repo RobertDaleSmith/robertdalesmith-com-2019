@@ -5,44 +5,68 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <div id="wrapper">
-      <h1 class="name">Robert Dale Smith</h1>
+    <div class="main_wrapper">
+      <div class="header_wrapper">
+        <h1 class="name">Robert Dale Smith</h1>
+        <h2 class="title">Software Engineer</h1>
+      </div>
 
-      <h2 class="title">Web Developer</h1>
-      
-      <img class="mugshot" src="images/mugshot.jpg" />
-
-      <div>
+      <div class="social_wrapper">
         <span class="social_links">
-          <a
+          <!-- <a
             alt="Facebook"
             class="social facebook"
             href="https://facebook.com/RobertDaleSmith.com"
             target="_blank"
             title="Connect on Facebook"
-          ><i class="fi-social-facebook"></i></a>
+          ><img inline src="src/icons/facebook.svg"></a> -->
+          <a
+            alt="Instagram"
+            class="social instagram"
+            href="http://instagram.com/robertdalesmith"
+            target="_blank"
+            title="Follow on Instagram"
+          ><img inline src="src/icons/instagram.svg"></a>
           <a
             alt="Twitter"
             class="social twitter"
             href="https://twitter.com/RobertDaleSmith"
             target="_blank"
             title="Follow on Twitter"
-          ><i class="fi-social-twitter"></i></a>
+          ><img inline src="src/icons/twitter.svg"></a>
+          <a
+            alt="Strava"
+            class="social strava"
+            href="https://www.strava.com/athletes/robertsmith"
+            target="_blank"
+            title="Follow on Strava"
+          ><img inline src="src/icons/strava.svg"></a>
           <a
             alt="Github"
             class="social github"
             href="https://github.com/RobertDaleSmith"
             target="_blank"
             title="Follow on Github"
-          ><i class="fi-social-github"></i></a>
+          ><img inline src="src/icons/github.svg"></a>
           <a
             alt="Linkedin"
             class="social linkedin"
             href="https://linkedin.com/in/RobertDaleSmith"
             target="_blank"
             title="Connect on LinkedIn"
-          ><i class="fi-social-linkedin"></i></a>
-      </span>
+          ><img inline src="src/icons/linkedin.svg"></a>
+        </span>
+      </div>
+
+      <div class="about_wrapper">
+        <img class="mug" src="images/robert.jpg" title="Robert" />
+
+        <p class="bio">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+      </div>
+
+      <div class="footer_wrapper">
+        <span class="copyright" itemscope="" itemtype="http://schema.org/copyrightYear">© 2019</span>
+      </div>
     </div>
   </body>
 </html>

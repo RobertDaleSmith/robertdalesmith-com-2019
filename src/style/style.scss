@@ -1,6 +1,6 @@
 @import '_reset.scss';
-@import '../fonts/foundation-icons.css';
 
+// @import '../fonts/foundation-icons.css';
 // @import '~foundation-sites/scss/util/util';
 // @import '_settings.scss';
 // @import '~foundation-sites/scss/foundation';
@@ -9,10 +9,11 @@
 // @import url('https://fonts.googleapis.com/css?family=Muli|Open+Sans&display=swap');
 
 body {
+  color: #222;
   background: #fff;
   font-family: Arial,verdana,sans-serif;
 
-  #wrapper {
+  .main_wrapper {
     padding: 16px;
     text-align: center;
 
@@ -20,7 +21,9 @@ body {
       color: #222;
       font-size: 32px;
       text-transform: uppercase;
+      letter-spacing: 0.03em;
 
+      line-height: 34px;
       margin-bottom: 16px;
     }
 
@@ -28,63 +31,120 @@ body {
       color: #222;
       font-size: 16px;
       text-transform: uppercase;
+      letter-spacing: 0.1em;
 
+      line-height: 18px;
       margin-bottom: 24px;
     }
 
-    img.mugshot {
-      width: 320px;
+    .about_wrapper {
+      display: inline-block;
+      position: relative;
       max-width: 100%;
 
       margin-bottom: 24px;
+
+      img.mug {
+        display: inline-block;
+        position: relative;
+
+        width: 320px;
+        max-width: 100%;
+
+        margin-bottom: 24px;
+      }
+
+      p.bio {
+        display: inline-block;
+        position: relative;
+
+        width: 320px;
+        max-width: calc(100% - 48px);
+        text-align: left;
+        margin-bottom: 24px;
+        padding: 0 24px;
+        vertical-align: top;
+        line-height: 26px;
+        letter-spacing: 0.015em;
+        text-align: justify;
+      }
+
+      @media screen and (max-width: 368px) {
+        p.bio {
+          padding: 0px;
+          max-width: calc(100% - 0px);
+        }
+      }
     }
 
-    .social_links {
+    span.social_links {
       display: inline-block;
       position: relative;
+      margin-bottom: 24px;
 
       a.social {
         display: inline-block;
         position: relative;
-        border-radius: 100%;
+        border-radius: 16px;
         border-width: 0px;
         border-style: solid;
         border-color: #000;
-        height: 32px;
-        width: 32px;
-        line-height: 32px;
-        font-size: 24px;
+        height: 40px;
+        width: 40px;
+        line-height: 42px;
+        font-size: 32px;
         font-weight: 800;
         text-align: center;
         text-decoration: none;
         color: #222;
 
+        svg, img {
+          height: 24px;
+          width: 24px;
+        }
+
         &:hover {
           color: inherit;
           opacity: 0.8;
+          background: rgba(250, 250, 250, 1);
 
           &.facebook {
             color: #1976f2;
+            fill: #1976f2;
+            opacity: 1;
+          }
+          &.instagram {
+            color: #E4405F;
+            fill: #E4405F;
             opacity: 1;
           }
           &.twitter {
-            color: #1ca1f2;
+            color: #1DA1F2;
+            fill: #1DA1F2;
             opacity: 1;
           }
           &.github {
-            color: #000000;
-            opacity: 0.666;
+            color: #181717;
+            fill: #181717;
+            opacity: 1;
           }
           &.linkedin {
-            color: #0177af;
+            color: #0077B5;
+            fill: #0077B5;
+            opacity: 1;
+          }
+          &.strava {
+            color: #fc4c01;
+            fill: #fc4c01;
             opacity: 1;
           }
         }
-
-
       }
     }
 
-    
+    .copyright {
+      display: inline-block;
+      margin-top: 48px;
+    }
   }
 }

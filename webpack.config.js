@@ -1,6 +1,7 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const HtmlWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
@@ -70,6 +71,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'RobertDaleSmith.com',
       template: './src/index.html'
+    }),
+    new HtmlWebpackInlineSVGPlugin({
+        runPreEmit: true,
     }),
     new CopyWebpackPlugin([{
       from: 'src/images',
