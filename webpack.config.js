@@ -69,7 +69,7 @@ module.exports = {
       chunkFilename: '[id].css',
     }),
     new HtmlWebpackPlugin({
-      title: 'RobertDaleSmith.com',
+      title: 'Robert Dale Smith - Software Engineer',
       template: './src/index.html'
     }),
     new HtmlWebpackInlineSVGPlugin({
