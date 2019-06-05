@@ -2,6 +2,7 @@ const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -47,22 +48,18 @@ module.exports = {
         test: /\.css$/,
         use: [
           { loader: "style-loader" },
-          { loader: "css-loader" }
-        ]
+          { loader: "css-loader" },
+        ],
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: [
-          'file-loader'
-        ]
+        use: [ 'file-loader' ],
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
-        use: [
-          'file-loader'
-        ]
+        use: [ 'file-loader' ],
       },
-    ]
+    ],
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -74,8 +71,12 @@ module.exports = {
       title: 'RobertDaleSmith.com',
       template: './src/index.html'
     }),
+    new CopyWebpackPlugin([{
+      from: 'src/images',
+      to: 'images'
+    }]),
   ],
   externals: [
-    'foundation-sites'
+    'foundation-sites',
   ]
 };
