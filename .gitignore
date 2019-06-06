@@ -5,6 +5,7 @@ public/build/*.js
 package-lock.json
 config/development.json
 dev_conf.js
+
 # Compiled source #
 ###################
 *.com
