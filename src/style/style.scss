@@ -10,6 +10,36 @@ body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
 
+  a {
+    color: #222;
+  }
+
+  a.button {
+    display: inline-block;
+    position: relative;
+    padding: 10px 22px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #222;
+    background: #fff;
+    color: #222;
+
+    &:hover {
+      background: #f9f9f9;
+      color: #222;
+    }
+
+    &:active {
+      background: #222;
+      color: #fff;
+    }
+  }
+
   .main_wrapper {
     padding: 16px 4px;
     text-align: center;
@@ -130,23 +160,42 @@ body {
         margin: 0 12px 24px;
       }
 
-      p.bio {
+      span.bio {
         display: inline-block;
         position: relative;
 
         letter-spacing: 0.015em;
         vertical-align: top;
-        text-align: justify;
         line-height: 26px;
+        text-align: left;
 
         width: 320px;
         max-width: calc(100% - 24px);
         margin: 0 12px 24px;
+
+        p {
+          margin: 0 0 16px;
+          text-align: justify;
+          text-indent: 8px;
+        }
+
+        a.button.contact {
+          margin: 4px 24px 0 0;
+        }
+
+        a.resume_link {
+
+        }
       }
 
       @media screen and (max-width: 368px) {
-        p.bio {
+        span.bio {
+          text-align: center;
 
+          a.button.contact {
+            width: calc(100% - 48px);
+            margin: 12px 0 24px 0;
+          }
         }
       }
     }
