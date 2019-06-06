@@ -15,7 +15,7 @@ module.exports = {
     port: 3000,
   },
   output: {
-    filename: '[name].js',
+    filename: 'js/[name].js',
     path: path.resolve(__dirname, 'build'),
     publicPath: '/'
   },
@@ -65,8 +65,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: '[id].css',
+      filename: "style/[name].css",
+      chunkFilename: 'style/[id].css',
     }),
     new HtmlWebpackPlugin({
       title: 'Robert Dale Smith | Developer',
@@ -76,8 +76,8 @@ module.exports = {
         runPreEmit: true,
     }),
     new CopyWebpackPlugin([{
-      from: 'src/images',
-      to: 'images'
+      from: 'src/public',
+      to: ''
     }]),
   ],
   externals: [
