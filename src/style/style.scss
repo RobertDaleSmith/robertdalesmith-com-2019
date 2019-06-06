@@ -40,6 +40,19 @@ body {
     }
   }
 
+  h2, h3 {
+    &.title {
+      color: #222;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+
+      font-weight: 400;
+      line-height: 18px;
+      margin-bottom: 16px;
+    }
+  }
+
   .main_wrapper {
     min-width: 152px;
     padding: 16px 4px;
@@ -56,17 +69,6 @@ body {
 
         font-weight: 400;
         line-height: 34px;
-        margin-bottom: 16px;
-      }
-
-      h2.title {
-        color: #222;
-        font-size: 16px;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-
-        font-weight: 400;
-        line-height: 18px;
         margin-bottom: 16px;
       }
     }
@@ -141,12 +143,16 @@ body {
               opacity: 1;
             }
           }
+
+          &:active {
+            background: rgba(240, 240, 240, 1);
+          }
         }
       }
     }
 
     div.about_wrapper {
-      display: inline-block;
+      display: block;
       position: relative;
       max-width: 100%;
 
@@ -196,6 +202,73 @@ body {
           a.button.contact {
             width: calc(100% - 48px);
             margin: 12px 0 24px 0;
+          }
+        }
+      }
+    }
+
+    div.work_wrapper {
+      display: inline-block;
+      position: relative;
+      max-width: 100%;
+
+      h3.title {
+        margin: 24px 0;
+      }
+
+      div.job_row_wrapper {
+        display: block;
+        position: relative;
+        max-width: 100%;
+
+      }
+
+      span.job_wrapper {
+        display: inline-block;
+        position: relative;
+        max-width: 100%;
+
+        margin-bottom: 24px;
+
+        img.logo {
+          display: block;
+          position: relative;
+
+          width: 320px;
+          max-width: calc(100% - 24px);
+          margin: 0 12px 24px;
+        }
+
+        span.logo {
+          display: block;
+          position: relative;
+
+          height: 160px;
+          width: 320px;
+          max-width: calc(100% - 24px);
+          margin: 0 12px 24px;
+
+          background-position: center;
+          background-size: 100%;
+        }
+
+        span.text {
+          display: block;
+          position: relative;
+
+          letter-spacing: 0.015em;
+          vertical-align: top;
+          line-height: 26px;
+          text-align: left;
+
+          width: 320px;
+          max-width: calc(100% - 24px);
+          margin: 0 12px 24px;
+
+          p {
+            margin: 0 0 16px;
+            text-align: justify;
+            text-indent: 8px;
           }
         }
       }
