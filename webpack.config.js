@@ -69,8 +69,12 @@ module.exports = {
       chunkFilename: 'style/[id].css',
     }),
     new HtmlWebpackPlugin({
-      title: 'Robert Dale Smith | Developer',
-      template: './src/index.html'
+      template: './src/templates/home.html',
+      filename: 'index.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/templates/work/sumo.html',
+      filename: 'work/sumo/index.html',
     }),
     new HtmlWebpackInlineSVGPlugin({
         runPreEmit: true,
