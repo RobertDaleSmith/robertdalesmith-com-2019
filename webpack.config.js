@@ -69,8 +69,16 @@ module.exports = {
       chunkFilename: 'style/[id].css',
     }),
     new HtmlWebpackPlugin({
-      template: './src/templates/home.html',
+      template: './src/templates/index.html',
       filename: 'index.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/templates/work/bouncingpixel.html',
+      filename: 'work/bouncingpixel/index.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/templates/work/motelabs.html',
+      filename: 'work/motelabs/index.html',
     }),
     new HtmlWebpackPlugin({
       template: './src/templates/work/sumo.html',
