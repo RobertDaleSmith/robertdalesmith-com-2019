@@ -1,0 +1,55 @@
+div.about {
+  display: block;
+  position: relative;
+  max-width: 100%;
+
+  margin-bottom: 24px;
+
+  img.mug {
+    display: inline-block;
+    position: relative;
+
+    width: 320px;
+    max-width: calc(100% - 24px);
+    margin: 0 12px 24px;
+  }
+
+  span.bio {
+    display: inline-block;
+    position: relative;
+
+    letter-spacing: 0.015em;
+    vertical-align: top;
+    line-height: 26px;
+    text-align: left;
+
+    width: 320px;
+    max-width: calc(100% - 24px);
+    margin: 0 12px 24px;
+
+    p {
+      margin: 0 0 16px;
+      text-align: justify;
+      text-indent: 8px;
+    }
+
+    a.button.contact {
+      margin: 4px 24px 0 0;
+    }
+
+    a.resume_link {
+
+    }
+  }
+
+  @media screen and (max-width: 368px) {
+    span.bio {
+      text-align: center;
+
+      a.button.contact {
+        width: calc(100% - 48px);
+        margin: 12px 0 24px 0;
+      }
+    }
+  }
+}

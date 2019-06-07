@@ -1,0 +1,77 @@
+div.social {
+  span.social_links {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 24px;
+
+    a.social {
+      display: inline-block;
+      position: relative;
+
+      height: 40px;
+      width: 40px;
+
+      color: #222;
+      fill: #222;
+
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 42px;
+      text-align: center;
+      text-decoration: none;
+
+      border-radius: 16px;
+      border-width: 0px;
+      border-style: solid;
+      border-color: #000;
+
+      svg, img {
+        height: 24px;
+        width: 24px;
+      }
+
+      &:hover {
+        background: rgba(250, 250, 250, 1);
+
+        color: inherit;
+        fill: inherit;
+        opacity: 0.8;
+
+        &.facebook {
+          color: #1976f2;
+          fill: #1976f2;
+          opacity: 1;
+        }
+        &.instagram {
+          color: #E4405F;
+          fill: #E4405F;
+          opacity: 1;
+        }
+        &.twitter {
+          color: #1DA1F2;
+          fill: #1DA1F2;
+          opacity: 1;
+        }
+        &.github {
+          color: #181717;
+          fill: #181717;
+          opacity: 1;
+        }
+        &.linkedin {
+          color: #0077B5;
+          fill: #0077B5;
+          opacity: 1;
+        }
+        &.strava {
+          color: #fc4c01;
+          fill: #fc4c01;
+          opacity: 1;
+        }
+      }
+
+      &:active {
+        background: rgba(240, 240, 240, 1);
+      }
+    }
+  }
+}
