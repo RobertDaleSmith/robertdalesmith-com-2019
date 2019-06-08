@@ -1,0 +1,7 @@
+{>"layouts/index"/}
+
+{<body}
+  <div class="test">test{body}</div>
+  <span>He is a cool dude</span>
+  {>"test2"/}
+{/body}

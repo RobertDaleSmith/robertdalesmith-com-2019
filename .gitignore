@@ -2,7 +2,6 @@ build
 source
 node_modules
 public/build/*.js
-package-lock.json
 config/development.json
 dev_conf.js
 
