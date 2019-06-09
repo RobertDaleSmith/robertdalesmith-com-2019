@@ -10,6 +10,7 @@ dust.render(template, {}, function(err, result){
   // document.body.innerHTML = result;
 });
 
+
 /* wraped render function output method */
 // template({}, function(err, result){
 //   if(err) console.log(err);
