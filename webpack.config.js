@@ -119,17 +119,17 @@ module.exports = {
     //   template: './src/views/work/sumo.html',
     //   filename: 'work/sumo/index.html',
     // }),
-    new HtmlWebpackPlugin({
-      filename: 'dust_test3/index.html',
-      template: '!!html-loader!dust-loader-complete?htmlOutput=string&root='+path.join(__dirname,'src/views')+'!src/views/test.dust',
-    }),
+    // new HtmlWebpackPlugin({
+    //   filename: 'dust_test3/index.html',
+    //   template: '!!html-loader!dust-loader-complete?htmlOutput=string&root='+path.join(__dirname,'src/views')+'!src/views/test.dust',
+    // }),
     new HtmlWebpackPlugin({
       filename: 'dust_test2/index.html',
-      template: '!!dust-loader-complete?htmlOutput=true&root='+path.join(__dirname,'src/views')+'!src/views/test.dust',
+      template: '!!dust-loader-complete?htmlOutput=true!src/views/test.dust',
     }),
     new HtmlWebpackPlugin({
       filename: 'dust_test1/index.html',
-      template: '!!dust-html-loader?root='+path.join(__dirname,'src/views')+'!src/views/test.dust',
+      template: '!!dust-html-loader!src/views/test.dust',
     }),
     new HtmlWebpackInlineSVGPlugin({
         runPreEmit: true,

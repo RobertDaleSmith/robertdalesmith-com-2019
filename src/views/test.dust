@@ -2,6 +2,6 @@
 
 {<body}
   <div class="test">test{body}</div>
-  <span>He is a cool dude</span>
+  <span>He is a cool d`ude``s</span>
   {>"test2"/}
 {/body}
