@@ -24,8 +24,7 @@ module.exports = {
   watch: true,
   resolveLoader: {
     alias: {
-      // 'dust-html-loader': path.resolve('./loaders/dust-html-loader.js'),
-      'dust-loader-complete': path.resolve('./loaders/dust-loader-complete.js')
+      'dust-loader-complete': path.resolve('./libs/dust-loader-complete.js')
     }
   },
   resolve: {
@@ -37,13 +36,6 @@ module.exports = {
       {
         test: /\.dust$/,
         use: [
-          // { loader: 'html-loader' },
-          // {
-          //   loader: path.resolve('./loaders/dust-html-loader.js'),
-          //   options: {
-          //     root: path.join(__dirname, 'src', 'views'),
-          //   },
-          // },
           {
             loader: 'dust-loader-complete',
             options: {
@@ -90,8 +82,7 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: [ 'file-loader' ],
-      },
-      { test: /\.hbs$/, loader: "handlebars-loader" }
+      }
     ],
   },
   plugins: [
@@ -104,32 +95,14 @@ module.exports = {
       chunkFilename: 'style/[id].css',
     }),
     new HtmlWebpackPlugin({
-      template: './src/views/index.html',
       filename: 'index.html',
-    }),
-    // new HtmlWebpackPlugin({
-    //   template: './src/views/work/bouncingpixel.html',
-    //   filename: 'work/bouncingpixel/index.html',
-    // }),
-    // new HtmlWebpackPlugin({
-    //   template: './src/views/work/motelabs.html',
-    //   filename: 'work/motelabs/index.html',
-    // }),
-    // new HtmlWebpackPlugin({
-    //   template: './src/views/work/sumo.html',
-    //   filename: 'work/sumo/index.html',
-    // }),
-    // new HtmlWebpackPlugin({
-    //   filename: 'dust_test3/index.html',
-    //   template: '!!html-loader!dust-loader-complete?htmlOutput=string&root='+path.join(__dirname,'src/views')+'!src/views/test.dust',
-    // }),
-    new HtmlWebpackPlugin({
-      filename: 'dust_test2/index.html',
-      template: '!!dust-loader-complete?htmlOutput=true!src/views/test.dust',
+      template: '!!dust-html-loader!src/views/index.dust',
+      // template: '!!dust-html-loader?root='+path.join(__dirname,'src/views')+'!src/views/index.dust',
+      // template: '!!dust-loader-complete?htmlOutput=true&root='+path.join(__dirname,'src/views')+'!src/views/index.dust',
     }),
     new HtmlWebpackPlugin({
-      filename: 'dust_test1/index.html',
-      template: '!!dust-html-loader!src/views/test.dust',
+      filename: 'work/sumo/index.html',
+      template: '!!dust-html-loader!src/views/sumo.dust',
     }),
     new HtmlWebpackInlineSVGPlugin({
         runPreEmit: true,

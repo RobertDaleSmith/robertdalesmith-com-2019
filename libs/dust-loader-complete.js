@@ -63,7 +63,7 @@ async function loader(source) {
   source = findPartials(source, template_path + '/../', options, deps);
 
   // Find image dependencies
-  if (!options.ignoreImages) {
+  if (!options.ignoreImages && !options.htmlOutput) {
     source = findImages(name, source, deps, options);
   }
 
@@ -88,9 +88,10 @@ async function loader(source) {
       });
     });
 
+    // Returnd html string for using post html loader
     if (options.preHtmlLoader) return htmlString;
 
-    return "module.exports = \"" + htmlString.replace(/\"/g, "\\\"") + "\"";
+    return "module.exports = `" + htmlString.replace(/\`/g, "\\\`") + "`";
   }
 
   // Build the returned string
@@ -166,6 +167,9 @@ function findPartials(source, source_path, options, deps) {
       // fetch partial source
       partial.path = path.resolve(options.root, partial.name+".dust");
       partial.source = fs.readFileSync(partial.path, 'utf8');
+
+      // recursive find and compile partials within partials
+      partial.source = findPartials(partial.source, source_path, options, deps);
 
       // compile and cache partial
       var compiled = dust.compile(partial.source, partial.name);

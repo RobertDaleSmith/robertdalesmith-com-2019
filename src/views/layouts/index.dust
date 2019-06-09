@@ -1,8 +1,28 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>website111</title>
+    <meta charset="UTF-8">
+    <title>Robert Dale Smith | {+title/}</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="/images/icons/mac128k-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/icons/mac128k-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icons/mac128k-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/icons/mac128k-120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/mac128k-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/icons/mac128k-72.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/icons/mac128k-57.png">
+    <link rel="icon" href="/images/icons/mac128k-32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/images/icons/mac128k-144.png">
   </head>
   <body>
-    {+body/}
+    <div class="main">
+      {>"partials/header"/}
+
+      {+body/}
+
+      {>"partials/footer"/}
+    </div>
   </body>
 </html>
