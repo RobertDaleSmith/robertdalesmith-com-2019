@@ -24,7 +24,7 @@ module.exports = {
   watch: true,
   resolveLoader: {
     alias: {
-      'dust-html-loader': path.resolve('./loaders/dust-html-loader.js'),
+      // 'dust-html-loader': path.resolve('./loaders/dust-html-loader.js'),
       'dust-loader-complete': path.resolve('./loaders/dust-loader-complete.js')
     }
   },
