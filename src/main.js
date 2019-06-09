@@ -2,7 +2,7 @@ import style from './style/main.scss';
 
 console.log("RobertDaleSmith.com..");
 
-// var template = require('./views/index.dust');
+// var template = require('./views/partials/social.dust');
 
 // dust.render(template, {}, function(err, result){
 //   if(err) console.log(err);
