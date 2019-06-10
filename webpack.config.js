@@ -6,6 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
   entry: {
@@ -17,7 +18,7 @@ module.exports = {
     port: 3000,
   },
   output: {
-    filename: 'js/[name].js',
+    filename: devMode ? 'js/[name].js' : 'js/[name].[hash].js',
     path: path.resolve(__dirname, 'build'),
     publicPath: '/'
   },
@@ -63,7 +64,13 @@ module.exports = {
         test: /.(?:sass|scss)$/,
         use: [
           'style-loader',
-          MiniCssExtractPlugin.loader,
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              hmr: devMode,
+              reloadAll: false,
+            },
+          },
           'css-loader', {
             loader: 'sass-loader',
             query: {
@@ -91,8 +98,8 @@ module.exports = {
       dust: 'dustjs-linkedin'
     }),
     new MiniCssExtractPlugin({
-      filename: 'style/[name].css',
-      chunkFilename: 'style/[id].css',
+      filename: devMode ? 'style/[name].css' : 'style/[name].[hash].css',
+      chunkFilename: devMode ? 'style/[id].css' : 'style/[id].[hash].css',
     }),
     new HtmlWebpackPlugin({
       filename: 'index.html',
