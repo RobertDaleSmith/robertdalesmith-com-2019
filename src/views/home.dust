@@ -1,10 +1,8 @@
 {>"layouts/main"/}
 
-{<title}Developer{/title}
-{<subtitle}Software Engineer{/subtitle}
+{<subtitle}Developer{/subtitle}
 
 {<body}
-  {>"partials/social"/}
   {>"partials/about"/}
   {>"partials/work"/}
 {/body}
