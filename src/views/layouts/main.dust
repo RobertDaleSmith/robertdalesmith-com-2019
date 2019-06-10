@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Robert Dale Smith | {title} {+title/}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <link rel="icon" type="image/x-icon" href="{base}favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="{base}images/icons/mac128k-152.png">
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{base}images/icons/mac128k-152.png">
