@@ -15,7 +15,6 @@
       <a 
         class="button contact"
         href="mailto:robert@robertdalesmith.com"
-        target="_blank"
         title="Let's work together, email me!"
       >Contact</a>
       <a 
