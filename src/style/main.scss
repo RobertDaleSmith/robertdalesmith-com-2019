@@ -9,31 +9,44 @@ body {
 
   a {
     color: #222;
-  }
-
-  a.button {
-    display: inline-block;
-    position: relative;
-    padding: 10px 22px;
-    line-height: 26px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-
+    border-width: 0 0 1px 0;
+    border-bottom-color: #222;
     border-style: solid;
-    border-width: 2px;
-    border-color: #222;
-    background: #fff;
-    color: #222;
+    text-decoration: none;
 
     &:hover {
-      background: #f9f9f9;
-      color: #222;
+      border-width: 0 0 2px 0;
     }
 
     &:active {
-      background: #222;
-      color: #fff;
+      border-bottom-color: #999;
+      color: #999;
+    }
+
+    &.button {
+      display: inline-block;
+      position: relative;
+      padding: 10px 22px;
+      line-height: 26px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      border-style: solid;
+      border-width: 2px;
+      border-color: #222;
+      background: #fff;
+      color: #222;
+
+      &:hover {
+        background: #f9f9f9;
+        color: #222;
+      }
+
+      &:active {
+        background: #222;
+        color: #fff;
+      }
     }
   }
 
