@@ -20,7 +20,7 @@ module.exports = {
   output: {
     filename: devMode ? 'js/[name].js' : 'js/[name].[hash].js',
     path: path.resolve(__dirname, 'build'),
-    publicPath: '/'
+    // publicPath: '/'
   },
   watch: true,
   resolveLoader: {
@@ -42,8 +42,7 @@ module.exports = {
             options: {
               root: path.join(__dirname, 'src', 'views'),
               ignoreImages: true,
-              preserveWhitespace: true,
-              verbose: true,
+              preserveWhitespace: false,
               wrapOutput: false,
               htmlOutput: false,
             }
@@ -63,15 +62,12 @@ module.exports = {
       {
         test: /.(?:sass|scss)$/,
         use: [
-          'style-loader',
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
               hmr: devMode,
-              reloadAll: false,
             },
-          },
-          'css-loader', {
+          }, 'css-loader', {
             loader: 'sass-loader',
             query: {
               includePaths: [path.resolve(__dirname, 'node_modules')]
@@ -97,22 +93,20 @@ module.exports = {
     new webpack.ProvidePlugin({
       dust: 'dustjs-linkedin'
     }),
-    new MiniCssExtractPlugin({
-      filename: devMode ? 'style/[name].css' : 'style/[name].[hash].css',
-      chunkFilename: devMode ? 'style/[id].css' : 'style/[id].[hash].css',
-    }),
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: '!!dust-html-loader!src/views/home.dust',
-      // template: '!!dust-html-loader?root='+path.join(__dirname,'src/views')+'!src/views/home.dust',
-      // template: '!!dust-loader-complete?htmlOutput=true&root='+path.join(__dirname,'src/views')+'!src/views/home.dust',
     }),
     new HtmlWebpackPlugin({
       filename: 'work/sumo/index.html',
-      template: '!!dust-html-loader!src/views/sumo.dust',
+      template: '!!dust-html-loader?base=../../!src/views/sumo.dust',
     }),
     new HtmlWebpackInlineSVGPlugin({
         runPreEmit: true,
+    }),
+    new MiniCssExtractPlugin({
+      filename: devMode ? 'style/[name].css' : 'style/[name].[hash].css',
+      chunkFilename: devMode ? 'style/[id].css' : 'style/[id].[hash].css',
     }),
     new CopyWebpackPlugin([{
       from: 'src/public',
