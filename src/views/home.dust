@@ -3,6 +3,54 @@
 {<subtitle}Developer{/subtitle}
 
 {<body}
-  {>"partials/about"/}
-  {>"partials/work"/}
+<div class="about">
+  <img class="mug" src="images/robert.jpg" title="Photo of Robert hugging an original 1984 Macintosh on their shared birthday." />
+
+  <span class="bio">
+    <p>Hi, I'm Robert. A road cycling, music collecting, full stack web developer located in Austin, TX. I really love computers and bringing ideas to life through the design and development of unique apps.</p>
+    <p>I started repairing computers and building websites for people as a kid in the late 90s. Helping people solve technicial challenges has been at the core of everything I do.</p>
+    <a 
+      class="button contact"
+      href="mailto:robert@robertdalesmith.com"
+      title="Let's work together, email me!"
+    >Contact</a>
+    <a 
+      class="resume_link"
+      href="images/robertsmith-resume-2019.pdf"
+      target="_blank"
+      title="Download a PDF Résumé"
+    >Resume/CV</a>
+  </span>
+</div>
+<div class="work">
+  <h3 class="title">Work</h3>
+  <div class="job_row">
+    <span class="job_col">
+      <a href="work/sumo"><img class="logo" src="images/sumo.png" title="" /></a>
+      <span class="text">
+        <p>As an early engineer at Sumo.com I got to play a key role in building some of the core features that have helped thousands of online businesses to grow.<a class="more" href="work/sumo">more</a></p>
+      </span>
+    </span>
+    <span class="job_col">
+      <a href="work/bouncing-pixel"><img class="logo" src="images/bouncingpixel.png" title="" /></a>
+      <span class="text">
+        <p>As the lead developer at Bouncing Pixel's studio I was able to work on a wide array of awesome projects. A bit of everything, from a games to custom web apps.<a class="more" href="work/bouncingpixel">more</a></p>
+      </span>
+    </span>
+  </div>
+  <div class="job_row">
+    <span class="job_col">
+      <a href="work/mote-labs"><img class="logo" src="images/motelabs.png" title="" /></a>
+      <span class="text">
+        <p>As the founder and engineer of Mote Labs I built a product that scaled to over 30k daily active users. 2013 Microsoft Imagine Cup  Startup Accelerator participant.<a class="more" href="work/motelabs">more</a></p>
+      </span>
+    </span>
+    <span class="job_col">
+      <span class="logo " style="background-color: #f6f6f6"></span>
+      <span class="text">
+        <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... <a class="more" href="#">more</a></p>
+      </span>
+    </span>
+  </div>
+</div>
 {/body}

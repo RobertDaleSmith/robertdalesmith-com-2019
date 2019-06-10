@@ -99,7 +99,15 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'work/sumo/index.html',
-      template: '!!dust-html-loader?base=../../!src/views/sumo.dust',
+      template: '!!dust-html-loader?base=../../!src/views/work-sumo.dust',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'work/bouncing-pixel/index.html',
+      template: '!!dust-html-loader?base=../../!src/views/work-bouncingpixel.dust',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'work/mote-labs/index.html',
+      template: '!!dust-html-loader?base=../../!src/views/work-motelabs.dust',
     }),
     new HtmlWebpackInlineSVGPlugin({
         runPreEmit: true,
