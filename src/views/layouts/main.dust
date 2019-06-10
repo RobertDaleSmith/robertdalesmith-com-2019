@@ -2,8 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Robert Dale Smith | {+title/}</title>
-
+    <title>Robert Dale Smith | {title} {+title/}</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="/images/icons/mac128k-152.png">
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/icons/mac128k-152.png">
@@ -19,9 +18,7 @@
   <body>
     <div class="main">
       {>"partials/header"/}
-
       {+body/}
-
       {>"partials/footer"/}
     </div>
   </body>

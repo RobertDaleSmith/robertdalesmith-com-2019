@@ -1,4 +1,4 @@
-{>"layouts/index"/}
+{>"layouts/main"/}
 
 {<title}Developer{/title}
 {<subtitle}Software Engineer{/subtitle}

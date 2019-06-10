@@ -96,9 +96,9 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: '!!dust-html-loader!src/views/index.dust',
-      // template: '!!dust-html-loader?root='+path.join(__dirname,'src/views')+'!src/views/index.dust',
-      // template: '!!dust-loader-complete?htmlOutput=true&root='+path.join(__dirname,'src/views')+'!src/views/index.dust',
+      template: '!!dust-html-loader!src/views/home.dust',
+      // template: '!!dust-html-loader?root='+path.join(__dirname,'src/views')+'!src/views/home.dust',
+      // template: '!!dust-loader-complete?htmlOutput=true&root='+path.join(__dirname,'src/views')+'!src/views/home.dust',
     }),
     new HtmlWebpackPlugin({
       filename: 'work/sumo/index.html',
