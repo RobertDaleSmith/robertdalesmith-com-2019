@@ -5,57 +5,6 @@
 
 {<body}
   {>"partials/social"/}
-
-  <div class="about">
-    <img class="mug" src="images/robert.jpg" title="Photo of Robert hugging an original 1984 Macintosh on their shared birthday." />
-
-    <span class="bio">
-      <p>Hi, I'm Robert. A road cycling, music collecting, full stack web developer located in Austin, TX. I really love computers and bringing ideas to life through the design and development of unique software.</p>
-      <p>I started repairing computers and building websites for people as a kid in the late 90s. Helping people solve technicial challenges has been at the core of everything I do.</p>
-      <a 
-        class="button contact"
-        href="mailto:robert@robertdalesmith.com"
-        title="Let's work together, email me!"
-      >Contact</a>
-      <a 
-        class="resume_link"
-        href="images/robertsmith-resume-2019.pdf"
-        target="_blank"
-        title="Download a PDF Résumé"
-      >Resume/CV</a>
-    </span>
-  </div>
-
-  <div class="work">
-    <h3 class="title">Work</h3>
-
-    <div class="job_row">
-      <span class="job_col">
-        <a href="work/sumo"><img class="logo" src="images/sumo.png" title="" /></a>
-        <span class="text">
-          <p>Hi, I'm Robert. A road cycling, music collecting, full stack web developer located in Austin, TX. I really love computers and bringing ideas to life. <a href="work/sumo">more</a></p>
-        </span>
-      </span>
-      <span class="job_col">
-        <a href="work/bouncingpixel"><img class="logo" src="images/bouncingpixel.png" title="" /></a>
-        <span class="text">
-          <p>I started repairing computers and building websites for people as a kid in the late 90s. Helping people solve technicial challenges has been at the core. <a href="work/bouncingpixel">more</a></p>
-        </span>
-      </span>
-    </div>
-    <div class="job_row">
-      <span class="job_col">
-        <a href="work/motelabs"><img class="logo" src="images/motelabs.png" title="" /></a>
-        <span class="text">
-          <p>I started repairing computers and building websites for people as a kid in the late 90s. Helping people solve technicial challenges has been at the core. <a href="work/motelabs">more</a></p>
-        </span>
-      </span>
-      <span class="job_col">
-        <span class="logo " style="background-color: #f6f6f6"></span>
-        <span class="text">
-          <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... <a href="#">more</a></p>
-        </span>
-      </span>
-    </div>
-  </div>
+  {>"partials/about"/}
+  {>"partials/work"/}
 {/body}

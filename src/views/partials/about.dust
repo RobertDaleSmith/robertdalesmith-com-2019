@@ -1,0 +1,19 @@
+<div class="about">
+  <img class="mug" src="images/robert.jpg" title="Photo of Robert hugging an original 1984 Macintosh on their shared birthday." />
+
+  <span class="bio">
+    <p>Hi, I'm Robert. A road cycling, music collecting, full stack web developer located in Austin, TX. I really love computers and bringing ideas to life through the design and development of unique software.</p>
+    <p>I started repairing computers and building websites for people as a kid in the late 90s. Helping people solve technicial challenges has been at the core of everything I do.</p>
+    <a 
+      class="button contact"
+      href="mailto:robert@robertdalesmith.com"
+      title="Let's work together, email me!"
+    >Contact</a>
+    <a 
+      class="resume_link"
+      href="images/robertsmith-resume-2019.pdf"
+      target="_blank"
+      title="Download a PDF Résumé"
+    >Resume/CV</a>
+  </span>
+</div>
