@@ -1,6 +1,6 @@
 <div class="header">
   <h1 class="name">
-    {#base}<a href="{base}">{/base}Robert Dale Smith{#base}</a>{/base}
+    {#base}<a class="alt" href="{base}">{/base}Robert Dale Smith{#base}</a>{/base}
   </h1>
   <h2 class="title">Software Engineer</h1>
 </div>

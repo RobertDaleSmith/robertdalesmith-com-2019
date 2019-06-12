@@ -1,3 +1,6 @@
 <div class="footer">
-  <span class="copyright">Robert Dale Smith © 2019</span>
+  <span class="site-copyright">
+    <span class="copyright-year  " itemscope="" itemtype="http://schema.org/copyrightYear">© 2019 </span>
+    <span class="copyright-text" itemscope="" itemtype="http://schema.org/copyrightHolder">{#base}<a class="alt" href="{base}">{/base}Robert Dale Smith{#base}</a>{/base}&nbsp;</span>
+  </span>
 </div>

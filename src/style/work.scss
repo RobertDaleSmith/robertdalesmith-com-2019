@@ -46,7 +46,7 @@ div.work {
       background-size: 100%;
 
       &.you {
-        &::after {
+        &:after {
           content: '?';
           display: inline-block;
           position: absolute;
@@ -122,15 +122,15 @@ div.work_page {
     }
 
     a.logo {
-      border: 0px;
+      float: right;
+
+      img {
+        width: 320px;
+        max-width: 100%;
+      }
     }
   }
 
-  img.logo {
-    width: 320px;
-    max-width: 100%;
-    float: right;
-  }
 
   @media screen and (max-width: 710px) {
     span.text {

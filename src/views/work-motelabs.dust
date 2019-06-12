@@ -6,7 +6,10 @@
 <div class="work_page">
   <h3 class="title">Work</h3>
   <span class="text">
-    <img class="logo" src="../images/mote-labs.png" title="Mote Labs" />
+    <a class="img logo" href="https://www.motelabs.com/" target="_blank" title="Mote Labs">
+      <img src="../images/mote-labs.png" alt="Mote Labs" />
+    </a>
+    <img src="../images/-.png" title="" />
     <p>As the founder and engineer of <a href="https://www.motelabs.com/" target="_blank">Mote Labs</a> I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.</p>
     <p>As the founder and engineer of Mote Labs I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.</p>
     <p>As the founder and engineer of Mote Labs I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.</p>
