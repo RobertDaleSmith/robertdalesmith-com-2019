@@ -1,108 +1,36 @@
-@import '_reset.scss';
+@import '_reset';
+@import 'globals';
+@import 'social-links';
 
-body {
-  color: #222;
-  background: #fff;
+div.main {
+  min-width: 152px;
+  padding: 16px 4px;
+  text-align: center;
 
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-style: normal;
+  div.header {
+    margin: 0 12px;
 
-  a {
-    color: #000;
-    border-width: 0 0 1px 0;
-    border-bottom-color: #000;
-    border-style: solid;
-    text-decoration: none;
-    transition: border-width ease-out 0.25s;
-
-    &.alt {
-      border-bottom-width: 0px;
-    }
-
-    &:hover {
-      border-width: 0 0 3px 0;
-    }
-
-    &:active {
-      border-bottom-color: #999;
-      color: #999;
-    }
-
-    &.img {
-      border-width: 0;
-    }
-
-    &.button {
-      display: inline-block;
-      position: relative;
-      padding: 10px 22px;
-      line-height: 26px;
-      text-align: center;
-      text-decoration: none;
-      text-transform: uppercase;
-
-      border-style: solid;
-      border-width: 2px;
-      border-color: #222;
-      background: #fff;
+    h1.name {
       color: #222;
-
-      &:hover {
-        background: #f9f9f9;
-        color: #222;
-      }
-
-      &:active {
-        background: #222;
-        color: #fff;
-      }
-    }
-  }
-
-  h2, h3 {
-    &.title {
-      color: #222;
-      font-size: 16px;
+      font-size: 32px;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.03em;
 
       font-weight: 400;
-      line-height: 18px;
+      line-height: 34px;
       margin-bottom: 16px;
     }
   }
 
-  .main {
-    min-width: 152px;
-    padding: 16px 4px;
-    text-align: center;
+  div.footer {
+    margin: 0 12px;
 
-    div.header {
-      margin: 0 12px;
-
-      h1.name {
-        color: #222;
-        font-size: 32px;
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
-
-        font-weight: 400;
-        line-height: 34px;
-        margin-bottom: 16px;
-      }
+    .copyright {
+      display: inline-block;
+      margin-top: 48px;
     }
-
-    div.footer {
-      margin: 0 12px;
-
-      .copyright {
-        display: inline-block;
-        margin-top: 48px;
-      }
-    }
-
-    @import 'about';
-    @import 'social';
-    @import 'work';
   }
+
+  @import 'home-page';
+  @import 'work-page';
 }

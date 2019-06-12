@@ -1,20 +1,10 @@
-div.about {
+div.work_page {
   display: block;
   position: relative;
   max-width: 100%;
-
   margin-bottom: 48px;
 
-  img.mug {
-    display: inline-block;
-    position: relative;
-
-    width: 320px;
-    max-width: calc(100% - 24px);
-    margin: 0 12px 24px;
-  }
-
-  span.bio {
+  span.text {
     display: inline-block;
     position: relative;
 
@@ -23,29 +13,36 @@ div.about {
     line-height: 26px;
     text-align: left;
 
-    width: 320px;
+    width: 640px;
     max-width: calc(100% - 24px);
     margin: 0 12px 24px;
 
     p {
-      margin: 0 0 24px;
+      margin: 0 0 16px;
       text-align: justify;
       text-indent: 8px;
     }
 
-    a.button.contact {
-      margin: 4px 32px 0 0;
+    a.logo {
+      float: right;
+
+      img {
+        width: 320px;
+        max-width: 100%;
+      }
     }
   }
 
-  @media screen and (max-width: 710px) {
-    span.bio {
-      text-align: center;
 
-      a.button.contact {
-        width: calc(100% - 48px);
-        margin: 12px 0 24px 0;
-      }
+  @media screen and (max-width: 710px) {
+    span.text {
+      width: 320px;
+      max-width: calc(100% - 24px);
+    }
+
+    img.logo {
+      width: 100%;
+      /*margin: 0 calc(50% - 160px);*/
     }
   }
 }
