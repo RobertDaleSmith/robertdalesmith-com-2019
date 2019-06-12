@@ -1,6 +1,6 @@
 @import '_reset';
 @import 'globals';
-@import 'social-links';
+@import 'socials';
 
 div.main {
   min-width: 152px;
@@ -31,6 +31,6 @@ div.main {
     }
   }
 
-  @import 'home-page';
-  @import 'work-page';
+  @import 'page/home';
+  @import 'page/work';
 }
