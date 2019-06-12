@@ -69,9 +69,7 @@ module.exports = {
             },
           }, 'css-loader', {
             loader: 'sass-loader',
-            query: {
-              includePaths: [path.resolve(__dirname, 'node_modules')]
-            }
+            // query: { includePaths: [path.resolve(__dirname, 'node_modules')] }
           }
         ]
       },

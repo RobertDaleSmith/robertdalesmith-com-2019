@@ -4,10 +4,12 @@
 
 {<body}
 <div class="work_page">
-  <h3 class="title">{+subtitle/}</h3>
+  <h3 class="title">Work</h3>
   <span class="text">
-    <img class="logo" src="../images/sumo-com.png" title="Sumo" />
-    <p>As an early engineer at Sumo.com I got to play a key role in building some of the core features that have helped thousands of online businesses to grow.</p>
+    <a class="logo" href="https://www.sumo.com/" target="_blank" title="Sumo.com">
+      <img class="logo" src="../images/sumo-com.png" alt="Sumo.com" />
+    </a>
+    <p>As an early engineer at <a href="https://www.sumo.com/" target="_blank">Sumo.com</a> I got to play a key role in building some of the core features that have helped thousands of online businesses to grow.</p>
     <p>As an early engineer at Sumo.com I got to play a key role in building some of the core features that have helped thousands of online businesses to grow.</p>
     <p>As an early engineer at Sumo.com I got to play a key role in building some of the core features that have helped thousands of online businesses to grow.</p>
   </span>

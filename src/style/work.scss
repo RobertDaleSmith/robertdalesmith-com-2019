@@ -120,6 +120,10 @@ div.work_page {
       text-align: justify;
       text-indent: 8px;
     }
+
+    a.logo {
+      border: 0px;
+    }
   }
 
   img.logo {
@@ -128,7 +132,12 @@ div.work_page {
     float: right;
   }
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 710px) {
+    span.text {
+      width: 320px;
+      max-width: calc(100% - 24px);
+    }
+
     img.logo {
       width: 100%;
       // margin: 0 calc(50% - 160px);
