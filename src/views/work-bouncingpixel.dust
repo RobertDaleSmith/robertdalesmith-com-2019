@@ -1,6 +1,15 @@
 {>"layouts/main"/}
 
-{<subtitle}Work | Bouncing Pixel{/subtitle}
+{<subtitle}Bouncing Pixel{/subtitle}
 
 {<body}
+<div class="work_page">
+  <h3 class="title">{+subtitle/}</h3>
+  <span class="text">
+    <img class="logo" src="../images/bouncing-pixel.png" title="Bouncing Pixel" />
+    <p>As the founder and engineer of Mote Labs I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.</p>
+    <p>As the founder and engineer of Mote Labs I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.</p>
+    <p>As the founder and engineer of Mote Labs I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.</p>
+  </span>
+</div>
 {/body}

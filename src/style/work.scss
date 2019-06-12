@@ -94,3 +94,44 @@ div.work {
     }
   }
 }
+
+
+div.work_page {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 48px;
+
+  span.text {
+    display: inline-block;
+    position: relative;
+
+    letter-spacing: 0.015em;
+    vertical-align: top;
+    line-height: 26px;
+    text-align: left;
+
+    width: 640px;
+    max-width: calc(100% - 24px);
+    margin: 0 12px 24px;
+
+    p {
+      margin: 0 0 16px;
+      text-align: justify;
+      text-indent: 8px;
+    }
+  }
+
+  img.logo {
+    width: 320px;
+    max-width: 100%;
+    float: right;
+  }
+
+  @media screen and (max-width: 640px) {
+    img.logo {
+      width: 100%;
+      // margin: 0 calc(50% - 160px);
+    }
+  }
+}
