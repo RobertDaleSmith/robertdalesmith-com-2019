@@ -74,6 +74,11 @@ div.project {
     }
   }
 
+  iframe.youtube-player {
+    width: 640px;
+    max-width: 100%;
+  }
+
   @media screen and (max-width: 710px) {
     span.text {
       width: 320px;

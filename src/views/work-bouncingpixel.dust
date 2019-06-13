@@ -9,21 +9,21 @@
   <span class="text">
     <span class="screenshot logo right">
       <a class="image" href="https://www.bouncingpixel.com/" target="_blank" title="Bouncing Pixel">
-        <img src="../../images/bouncing-pixel.png" title="Bouncing Pixel" />
+        <img src="../../images/logos/bouncing-pixel.png" title="Bouncing Pixel" />
       </a>
       <a class="link" target="_blank" href="https://www.bouncingpixel.com/">bouncingpixel.com</a>
     </span>
     <p>As the lead developer at Bouncing Pixel's studio I was able to work on a wide array of awesome projects. A bit of everything, from a games to custom web apps.</p>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
   </span>
 </div>
-
 <div class="project">
   <h3 class="title">BP Interactive Map</h3>
   <span class="text">
     <span class="screenshot">
       <a class="image" target="_blank" href="http://bp-otc-2015.herokuapp.com/">
-        <img class="logo" src="../../images/project-bp-otc-2015.gif" title="BP Interactive Map" />
+        <img class="logo" src="../../images/screenshots/bp-otc-2015.gif" title="BP Interactive Map" />
       </a>
       <a class="link" target="_blank" href="http://bp-otc-2015.herokuapp.com/">click to demo</a>
     </span>
@@ -35,20 +35,19 @@
   <span class="text">
     <span class="screenshot left">
       <a class="image" target="_blank" href="https://www.tichelper.com/">
-        <img class="logo" src="../../images/project-tichelper.png" title="TicHelper" />
+        <img class="logo" src="../../images/screenshots/tic-helper.png" title="TicHelper" />
       </a>
       <a class="link" target="_blank" href="https://www.tichelper.com/">tichelper.com</a>
     </span>
     <p>Collaborated with one other developer and the awesome designers at <a href="http://www.aleberrycreative.com/" target="_blank">Aleberry</a> to develop a single-page application that provides at-home training sessions to help kids with Tourette syndrome. Crafted the frontend using Google’s <a href="http://www.polymer-project.org/" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">Polymer</a>. Built backend on Node/Express/Mongo for user authentication and data storage. Implemented Stripe API for registration and subscription fees. Project’s development featured on <a href="http://www.npr.org/sections/health-shots/2015/07/22/424722960/for-kids-with-tourettes-at-home-training-could-help" target="_blank">NPR</a>.</p>
   </span>
 </div>
-
 <div class="project">
   <h3 class="title">Children's Museum of Houston</h3>
   <span class="text">
     <span class="screenshot left">
       <a class="image" target="_blank" href="https://www.cmhouston.org/">
-        <img class="logo" src="../../images/project-cm-houston.png" title="Children's Museum of Houston" />
+        <img class="logo" src="../../images/screenshots/cm-houston.png" title="Children's Museum of Houston" />
       </a>
       <a class="link" target="_blank" href="https://www.cmhouston.org/">cmhouston.org</a>
     </span>
@@ -60,7 +59,7 @@
   <span class="text">
     <span class="screenshot left">
       <a class="image" target="_blank" href="https://web.archive.org/web/20181128125418/http://www.braveisbeautiful.com/">
-        <img class="logo" src="../../images/project-brave-is-beautiful.png" title="Brave is Beautiful" />
+        <img class="logo" src="../../images/screenshots/brave-is-beautiful.png" title="Brave is Beautiful" />
       </a>
       <a class="link" target="_blank" href="https://web.archive.org/web/20181128125418/http://www.braveisbeautiful.com/">braveisbeautiful.com</a>
     </span>
@@ -73,7 +72,7 @@
   <span class="text">
     <span class="screenshot left">
       <a class="image" target="_blank" href="https://web.archive.org/web/20160320203555/http://www.wipingpoetic.com/">
-        <img class="logo" src="../../images/project-cottonelle.png" title="#LetsTalkBums" />
+        <img class="logo" src="../../images/screenshots/cottonelle.png" title="#LetsTalkBums" />
       </a>
       <a class="link" target="_blank" href="https://web.archive.org/web/20160320203555/http://www.wipingpoetic.com/">wipingpoetic.com</a>
     </span>

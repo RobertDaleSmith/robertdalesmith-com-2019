@@ -9,12 +9,28 @@
   <span class="text">
     <span class="screenshot logo right">
       <a class="image" href="https://www.motelabs.com/" target="_blank" title="Mote Labs">
-        <img src="../../images/mote-labs.png" title="Mote Labs" />
+        <img src="../../images/logos/mote-labs.png" title="Mote Labs" />
       </a>
       <a class="link" target="_blank" href="https://www.motelabs.com/">motelabs.com</a>
     </span>
     <p>As the founder and engineer at Mote Labs I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.</p>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+  </span>
+</div>
+<div class="project">
+  <h3 class="title">Chromemote</h3>
+  <span class="text">
+    <span class="screenshot left">
+      <a class="image" target="_blank" href="http://www.chromemote.com/">
+        <img class="logo" src="../../images/logos/chromemote.png" title="Chromemote" />
+      </a>
+      <a class="link" target="_blank" href="http://www.chromemote.com/">chromemote.com</a>
+    </span>
+    <p>Designed, built, and launched Chrome browser extension that grew to over 30k daily active users. Featured on multiple tech news sites like <a href="http://lifehacker.com/5928415/chromemote-is-a-google-tv-remote-that-lives-in-chrome" target="_blank">Lifehacker</a> and <a href="http://www.youtube.com/watch?v=oIoKiZYmpXo" target="_blank">GigaOm</a>. Pitched the idea at <a href="http://3daystartup.org/companies-founded-by-3ds-alumni/" target="_blank">3DayStartup</a> and started Mote Labs over that weekend.</p>
+    <p>The original UI was written in Java using Google Web Toolkit. Later totally rewrote with just HTML, CSS, and JavaScript. Implemented <a href="https://code.google.com/p/anymote-protocol/" target="_blank">Anymote-protocol</a> to enable communication between browser extensions and GoogleTVs.</p>
+    <p>Before there was Chromecast, there was Chromemote. A Google TV remote browser extension. The most popular feature was the ability to instantly fling the currently playing YouTube video on a laptop onto a TV. With the ever increasing use of multiple screens while watching TV, it only made sense to build a browser based smart TV remote.</p>
+    {! <iframe class="youtube-player" type="text/html" width="700" height="394" src="https://www.youtube.com/embed/oIoKiZYmpXo?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;"></iframe> !}
   </span>
 </div>
 {/body}
