@@ -5,14 +5,26 @@
 
 {<body}
 <div class="intro">
-  <h3 class="title">Work</h3>
+  <h3 class="title">Bouncing Pixel</h3>
   <span class="text">
-    <a class="img logo" href="https://www.bouncingpixel.com/" target="_blank" title="Bouncing Pixel">
+    <a class="image logo" href="https://www.bouncingpixel.com/" target="_blank" title="Bouncing Pixel">
       <img src="../../images/bouncing-pixel.png" title="Bouncing Pixel" />
     </a>
     <p>As the lead developer at <a href="https://www.bouncingpixel.com/" target="_blank">Bouncing Pixel</a>'s studio I was able to work on a wide array of awesome projects. A bit of everything, from a games to custom web apps.</p>
     <p>As the lead developer at Bouncing Pixel's studio I was able to work on a wide array of awesome projects. A bit of everything, from a games to custom web apps.</p>
-    <p>As the lead developer at Bouncing Pixel's studio I was able to work on a wide array of awesome projects. A bit of everything, from a games to custom web apps.</p>
+  </span>
+</div>
+<div class="project">
+  <h3 class="title">Cottonelle micro-site</h3>
+  <span class="text">
+    <span class="screenshot right">
+      <a class="image" target="_blank" href="https://web.archive.org/web/20160320203555/http://www.wipingpoetic.com/">
+        <img class="logo" src="../../images/project-cottonelle.png" title="Bouncing Pixel" />
+      </a>
+      <a class="link" target="_blank" href="https://web.archive.org/web/20160320203555/http://www.wipingpoetic.com/">wipingpoetic.com</a>
+    </span>
+    <p>Developed a haiku Twitter contest micro-site with Node.js that includes a custom CMS for accepting tweets and selecting weekly winners. Built out designer’s mockups and styled into a fully functional responsive layout.</p>
+    <p>Implemented the Twitter API on the backend to cache recent tweets containing the hashtag <a href="https://twitter.com/search?q=%23LetsTalkBums%20%23haiku" target="_blank">#LetsTalkBums</a> to a MongoDB database and to await admin approval before displaying them on the contest page.</p>
   </span>
 </div>
 {/body}

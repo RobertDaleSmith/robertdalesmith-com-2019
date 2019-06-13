@@ -2,7 +2,7 @@ div.intro {
   display: block;
   position: relative;
   max-width: 100%;
-  margin-bottom: 48px;
+  margin-bottom: 0;
 
   span.text {
     display: inline-block;
@@ -18,7 +18,7 @@ div.intro {
     margin: 0 12px 24px;
 
     p {
-      margin: 0 0 16px;
+      margin-bottom: 16px;
       text-align: justify;
       text-indent: 8px;
     }
@@ -33,7 +33,6 @@ div.intro {
     }
   }
 
-
   @media screen and (max-width: 710px) {
     span.text {
       width: 320px;
@@ -45,5 +44,78 @@ div.intro {
       /*margin: 0 calc(50% - 160px);*/
     }
   }
+}
 
+div.project {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 0;
+
+  span.text {
+    display: inline-block;
+    position: relative;
+
+    letter-spacing: 0.015em;
+    vertical-align: top;
+    line-height: 26px;
+    text-align: left;
+
+    width: 640px;
+    max-width: calc(100% - 24px);
+    margin: 0 12px 24px;
+
+    h4.name {
+      font-size: 32px;
+      margin: 16px 0;
+    }
+    span.date {
+      font-size: 24px;
+      margin: 16px 0;
+    }
+
+    p {
+      margin-bottom: 16px;
+      text-align: justify;
+      text-indent: 8px;
+    }
+
+    text-align: center;
+  }
+
+  span.screenshot {
+    display: inline-block;
+    position: relative;
+    width: calc(100% - 32px);
+    max-width: 100%;
+    margin: 0 16px 16px;
+    text-align: center;
+
+    img {
+      width: calc(100% - 32px);
+    }
+
+    &.left {
+      float: left;
+      width: calc(320px - 32px);
+    }
+
+    &.right {
+      float: right;
+      width: calc(320px - 32px);
+    }
+  }
+
+  @media screen and (max-width: 710px) {
+    span.text {
+      width: 320px;
+      max-width: calc(100% - 24px);
+    }
+
+    span.screenshot {
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
 }
