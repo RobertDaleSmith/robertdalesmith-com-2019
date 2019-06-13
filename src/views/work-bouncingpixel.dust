@@ -25,7 +25,7 @@
       <a class="image" target="_blank" href="http://bp-otc-2015.herokuapp.com/">
         <img class="logo" src="../../images/screenshots/bp-otc-2015.gif" title="BP Interactive Map" />
       </a>
-      <a class="link" target="_blank" href="http://bp-otc-2015.herokuapp.com/">click to demo</a>
+      <a class="link" target="_blank" href="http://bp-otc-2015.herokuapp.com/">click for demo</a>
     </span>
     <p>Built an interactive map application to run fullscreen on a massive touchscreen TV at the 2015 <a href="http://otcnet.org/" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">Offshore Technology Conference</a>. Packaged HTML5 source into Windows and Mac OS applications with <a rel="noreferrer noopener" href="https://github.com/nwjs/nw.js/" target="_blank">node-webkit</a>. Designed application to read a (JSON) data file and to dynamically render content using prebuilt <a rel="noreferrer noopener" href="http://www.dustjs.com/" target="_blank">DustJS</a> templates. Wrote a custom SVG animation javascript library for animating arrow paths along bézier curves.</p>
   </span>

@@ -33,4 +33,29 @@
     {! <iframe class="youtube-player" type="text/html" width="700" height="394" src="https://www.youtube.com/embed/oIoKiZYmpXo?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;"></iframe> !}
   </span>
 </div>
+<div class="project">
+  <h3 class="title">Flinger</h3>
+  <span class="text">
+    <span class="screenshot right">
+      <a class="image" target="_blank" href="https://flinger.motelabs.com/">
+        <img class="logo" src="../../images/logos/flinger.png" title="Flinger.co" />
+      </a>
+      <a class="link" target="_blank" href="https://flinger.motelabs.com/">flinger.motelabs.com</a>
+    </span>
+    <p>Built a cross-platform remote control application to enable users to control web video playback on a second screen web app. Implemented real-time communication backend with <a href="https://github.com/share/sharedb" target="_blank">ShareDB</a> to enable an unlimited number of remotes to control an unlimited number of screens. Developed a single JavaScript codebase for the remote app and ported it to Android, iOS, WindowsPhone, Windows 8, as well as a Chrome browser extension.</p>
+  </span>
+</div>
+{! <div class="project">
+  <h3 class="title">Fire Sauce TV</h3>
+  <span class="text">
+    <span class="screenshot left">
+      <a class="image" target="_blank" href="http://firesauce.net/">
+        <img class="logo" src="../../images/logos/fire-sauce.png" title="Fire Sauce TV" />
+      </a>
+      <a class="link" target="_blank" href="http://firesauce.net/">firesauce.net</a>
+    </span>
+    <p>Built a crowdsourced TV platform where anyone can curate their own live internet TV channel, by simply tweeting video links. Designed to make any Twitter user’s feed into a live video playlist by gathering links containing YouTube links that user tweets.</p>
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+  </span>
+</div> !}
 {/body}
