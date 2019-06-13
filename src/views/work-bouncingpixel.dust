@@ -13,7 +13,7 @@
       </a>
       <a class="link" target="_blank" href="https://www.bouncingpixel.com/">bouncingpixel.com</a>
     </span>
-    <p>As the lead developer at <a href="https://www.bouncingpixel.com/" target="_blank">Bouncing Pixel</a>'s studio I was able to work on a wide array of awesome projects. A bit of everything, from a games to custom web apps.</p>
+    <p>As the lead developer at Bouncing Pixel's studio I was able to work on a wide array of awesome projects. A bit of everything, from a games to custom web apps.</p>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
   </span>
 </div>
@@ -46,7 +46,7 @@
 <div class="project">
   <h3 class="title">Children's Museum of Houston</h3>
   <span class="text">
-    <span class="screenshot right">
+    <span class="screenshot left">
       <a class="image" target="_blank" href="https://www.cmhouston.org/">
         <img class="logo" src="../../images/project-cm-houston.png" title="Children's Museum of Houston" />
       </a>
@@ -71,7 +71,7 @@
 <div class="project">
   <h3 class="title">Cottonelle micro-site</h3>
   <span class="text">
-    <span class="screenshot right">
+    <span class="screenshot left">
       <a class="image" target="_blank" href="https://web.archive.org/web/20160320203555/http://www.wipingpoetic.com/">
         <img class="logo" src="../../images/project-cottonelle.png" title="#LetsTalkBums" />
       </a>
