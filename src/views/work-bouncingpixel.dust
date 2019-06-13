@@ -1,9 +1,10 @@
 {>"layouts/main"/}
 
-{<subtitle}Bouncing Pixel{/subtitle}
+{<pageTitle}Bouncing Pixel{/pageTitle}
+{<pageType}work{/pageType}
 
 {<body}
-<div class="work_page">
+<div class="intro">
   <h3 class="title">Work</h3>
   <span class="text">
     <a class="img logo" href="https://www.bouncingpixel.com/" target="_blank" title="Bouncing Pixel">

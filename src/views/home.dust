@@ -1,6 +1,7 @@
 {>"layouts/main"/}
 
-{<subtitle}Developer{/subtitle}
+{<pageTitle}Developer{/pageTitle}
+{<pageType}home{/pageType}
 
 {<body}
 <div class="about">

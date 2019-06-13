@@ -1,9 +1,10 @@
 {>"layouts/main"/}
 
-{<subtitle}Mote Labs{/subtitle}
+{<pageTitle}Mote Labs{/pageTitle}
+{<pageType}work{/pageType}
 
 {<body}
-<div class="work_page">
+<div class="intro">
   <h3 class="title">Work</h3>
   <span class="text">
     <a class="img logo" href="https://www.motelabs.com/" target="_blank" title="Mote Labs">
@@ -13,5 +14,6 @@
     <p>As the founder and engineer of Mote Labs I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.</p>
     <p>As the founder and engineer of Mote Labs I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.</p>
   </span>
+
 </div>
 {/body}
