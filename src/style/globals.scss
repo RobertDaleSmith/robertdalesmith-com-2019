@@ -11,19 +11,18 @@ body {
     border-style: solid;
     border-width: 0 0 1px 0;
     text-decoration: none;
-    transition: border-width ease-out 0.25s;
+    transition: border-width 0.25s;
 
     &.alt {
       border-bottom-width: 0px;
     }
 
     &:hover {
-      border-width: 0 0 3px 0;
+      border-width: 0 0 5px 0;
     }
 
     &:active {
-      border-bottom-color: #0e74b5;
-      color: #0e74b5;
+      border-width: 0 0 3px 0;
     }
 
     &.img {
