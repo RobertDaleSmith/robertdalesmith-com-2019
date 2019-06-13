@@ -1,56 +1,8 @@
-div.intro {
-  display: block;
-  position: relative;
-  max-width: 100%;
-  margin-bottom: 0;
-
-  span.text {
-    display: inline-block;
-    position: relative;
-
-    letter-spacing: 0.015em;
-    vertical-align: top;
-    line-height: 26px;
-    text-align: left;
-
-    width: 640px;
-    max-width: calc(100% - 24px);
-    margin: 0 12px 24px;
-
-    p {
-      margin-bottom: 16px;
-      text-align: justify;
-      text-indent: 8px;
-    }
-
-    a.logo {
-      float: right;
-
-      img {
-        width: 320px;
-        max-width: 100%;
-      }
-    }
-  }
-
-  @media screen and (max-width: 710px) {
-    span.text {
-      width: 320px;
-      max-width: calc(100% - 24px);
-    }
-
-    img.logo {
-      width: 100%;
-      /*margin: 0 calc(50% - 160px);*/
-    }
-  }
-}
-
 div.project {
   display: block;
   position: relative;
   max-width: 100%;
-  margin-bottom: 0;
+  margin-bottom: 24px;
 
   span.text {
     display: inline-block;
@@ -104,6 +56,18 @@ div.project {
       float: right;
       width: calc(320px - 32px);
     }
+
+    a.image:hover + a.link {
+      border-width: 0 0 3px 0;
+    }
+
+    &.logo {
+      margin: 0 0 16px;
+      width: 320px;
+      img {
+        width: 100%;
+      }
+    }
   }
 
   @media screen and (max-width: 710px) {
@@ -116,6 +80,10 @@ div.project {
       width: 100%;
       margin-left: 0px;
       margin-right: 0px;
+
+      &.left, &.right {
+        width: 100%;
+      }
     }
   }
 }

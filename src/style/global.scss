@@ -18,10 +18,15 @@ body {
     }
 
     &:hover {
-      border-width: 0 0 5px 0;
+      border-width: 0 0 3px 0;
     }
 
     &:active {
+      border-width: 0 0 3px 0;
+    }
+
+    &:focus {
+      outline: thin dotted;
       border-width: 0 0 3px 0;
     }
 
