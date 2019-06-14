@@ -54,4 +54,21 @@
     </span>
   </div>
 </div>
+<div class="work">
+  <h3 class="title">PLAY</h3>
+  <div class="job_row">
+    <span class="job_col">
+      <a class="image logo" target="_blank" href="http://firesauce.net"><img src="images/logos/fire-sauce.png" title="Fire Sauce TV" /></a>
+      <span class="text">
+        <p>Built <a target="_blank" href="http://firesauce.net/">firesauce.net</a> to crowdsource my never ending search for something good to watch. Easily find/watch recently tweeted YouTube videos by any Twitter user.</p>
+      </span>
+    </span>
+    <span class="job_col">
+      <a class="image logo" target="_blank" href="https://github.com/RobertDaleSmith/dreamcast-vmu-icons"><img src="images/logos/dc-vmu-icons.png" title="DC VMU ICONS" /></a>
+      <span class="text">
+        <p>When the Sega Dreamcast came out I built this website for altering the memory card icons. Almost 20 years later I brought it back to life. <a class="more" target="_blank" href="https://github.com/RobertDaleSmith/dreamcast-vmu-icons">more</a></p>
+      </span>
+    </span>
+  </div>
+</div>
 {/body}
