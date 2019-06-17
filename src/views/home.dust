@@ -60,7 +60,7 @@
     <span class="job_col">
       <a class="image logo" target="_blank" href="http://firesauce.net"><img src="images/logos/fire-sauce.png" title="Fire Sauce TV" /></a>
       <span class="text">
-        <p>Built <a target="_blank" href="http://firesauce.net/">firesauce.net</a> to crowdsource my never ending search for something good to watch. Easily find/watch recently tweeted YouTube videos by any Twitter user.</p>
+        <p>Built <a class="try" target="_blank" href="http://firesauce.net/">firesauce.net</a> to crowdsource my never ending search for something good to watch. Easily find/watch recently tweeted YouTube videos by any Twitter user.</p>
       </span>
     </span>
     <span class="job_col">

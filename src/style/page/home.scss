@@ -82,6 +82,12 @@ div.work {
       }
       
       margin: 0 12px 24px;
+
+      &:hover + span.text p {
+        & a.more, & a.try {
+          border-width: 0 0 3px 0;
+        }
+      }
     }
 
     span.logo {
