@@ -14,8 +14,8 @@
       <a class="link" target="_blank" href="https://www.motelabs.com/">motelabs.com</a>
     </span>
     <p>As the founder and engineer at Mote Labs I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.</p>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>As apart of Microsoft Imagine Cup 2013, we were one of fifteen teams Microsoft flew out to Silicon Valley for a week long intensive startup bootcamp.</p>
+    <p>It was here I was introduced to node.js, and pivoted to build Flinger. Went on to participate in the first class of the <a class="link red" href="http://redlabs.uh.edu/" target="_blank">RED Labs</a> startup accelerator at the Universify of Houston.</p>
   </span>
 </div>
 <div class="project">
@@ -27,10 +27,11 @@
       </a>
       <a class="link" target="_blank" href="http://www.chromemote.com/">chromemote.com</a>
     </span>
-    <p>Designed, built, and launched Chrome browser extension that grew to over 30k daily active users. Featured on multiple tech news sites like <a href="http://lifehacker.com/5928415/chromemote-is-a-google-tv-remote-that-lives-in-chrome" target="_blank">Lifehacker</a> and <a href="http://www.youtube.com/watch?v=oIoKiZYmpXo" target="_blank">GigaOm</a>. Pitched the idea at <a href="http://3daystartup.org/companies-founded-by-3ds-alumni/" target="_blank">3DayStartup</a> and started Mote Labs over that weekend.</p>
-    <p>The original UI was written in Java using Google Web Toolkit. Later totally rewrote with just HTML, CSS, and JavaScript. Implemented <a href="https://code.google.com/p/anymote-protocol/" target="_blank">Anymote-protocol</a> to enable communication between browser extensions and GoogleTVs.</p>
-    <p>Before there was Chromecast, there was Chromemote. A Google TV remote browser extension. The most popular feature was the ability to instantly fling the currently playing YouTube video on a laptop onto a TV. With the ever increasing use of multiple screens while watching TV, it only made sense to build a browser based smart TV remote.</p>
-    {! <iframe class="youtube-player" type="text/html" width="700" height="394" src="https://www.youtube.com/embed/oIoKiZYmpXo?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;"></iframe> !}
+    <p>Designed, built, and launched Chrome browser extension that grew to nearly thirty five thousand daily active users. It as featured on some of my favorite tech news sites like <a href="http://lifehacker.com/5928415/chromemote-is-a-google-tv-remote-that-lives-in-chrome" target="_blank">Lifehacker</a> and <a href="https://web.archive.org/web/20161106085627/https://www.androidcentral.com/chromemote-offers-better-solution-controlling-your-google-tv" target="_blank">Android Central</a>. I originally pitched the idea at <a href="http://3daystartup.org/companies-founded-by-3ds-alumni/" target="_blank">3DayStartup</a> and started Mote Labs over that weekend.</p>
+    <p>The original UI was written in Java using Google Web Toolkit. Later totally rewrote with just raw HTML, CSS, and JavaScript. I has to implement the the <a href="https://code.google.com/p/anymote-protocol/" target="_blank">Anymote-protocol</a> in order to enable communication between browser extensions and Google TV set-top devices.</p>
+    <p>Before there was Chromecast, there was Chromemote. A Google TV remote browser extension. Chromemote was not just a universal remote control on your computer but could also fling content from your browser to a TV. With the ever increasing use of multiple screens while watching TV, it only made sense to me build a browser based smart TV remote.</p>
+    <br />
+    <iframe class="youtube-player" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/oIoKiZYmpXo?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;"></iframe>
   </span>
 </div>
 <div class="project">
@@ -42,7 +43,11 @@
       </a>
       <a class="link" target="_blank" href="https://flinger.motelabs.com/">flinger.motelabs.com</a>
     </span>
-    <p>Built a cross-platform remote control application to enable users to control web video playback on a second screen web app. Implemented real-time communication backend with <a href="https://github.com/share/sharedb" target="_blank">ShareDB</a> to enable an unlimited number of remotes to control an unlimited number of screens. Developed a single JavaScript codebase for the remote app and ported it to Android, iOS, WindowsPhone, Windows 8, as well as a Chrome browser extension.</p>
+    <p>A cross-platform remote control web application to enable users to control video playback on a second screen web or mobile app. I was able to mplement real-time communication through a backend built on <a href="https://github.com/share/sharedb" target="_blank">ShareDB</a>.</p>
+    <p>This enabled a virtually unlimited number of remotes to control unlimited viewer screens. I developed a single JavaScript source code for the remote app and ported it to Android, iOS, WindowsPhone, Windows 8, as well as a Chrome browser extension.</p>
+    <p>In 2014, we returned and won first place in both Microsoft Imagine Cup's pitch video and UI/UX challenges.</p>
+    <br />
+    <iframe class="youtube-player" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/ljSJ3YEq1rE?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;"></iframe>
   </span>
 </div>
 {/body}

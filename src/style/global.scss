@@ -60,6 +60,11 @@ body {
         color: #fff;
       }
     }
+
+    &.red:hover {
+      color: #c8102e;
+      border-bottom-color: #c8102e;
+    }
   }
 
   h2, h3 {
