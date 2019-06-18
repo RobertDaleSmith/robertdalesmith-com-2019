@@ -1,6 +1,6 @@
 {>"layouts/main"/}
 
-{<pageTitle}Sumo{/pageTitle}
+{<pageTitle}Sumo.com{/pageTitle}
 {<pageType}work{/pageType}
 
 {<body}
@@ -18,4 +18,47 @@
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
   </span>
 </div>
+<div class="project">
+  <h3 class="title">Browser Extension</h3>
+  <span class="text">
+    <span class="screenshot left">
+      <a class="image" target="_blank" href="#">
+        <img class="logo" src="../../images/screenshots/sumo-chrome-ext.png" title="Sumo chrome Extension" />
+        <a class="link" target="_blank" href="https://chrome.google.com/webstore/detail/dlgipkaoljiajmolhibpngjppeckkjjp">chrome web store</a>
+      </a>
+    </span>
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+  </span>
+</div>
+<div class="project">
+  <h3 class="title">Click Triggers</h3>
+  <span class="text">
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+  </span>
+</div>
+<div class="project">
+  <h3 class="title">Automatic Email Responder</h3>
+  <span class="text">
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+  </span>
+</div>
+<div class="project">
+  <h3 class="title">Email Editor</h3>
+  <span class="text">
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+  </span>
+</div>
+<div class="project">
+  <h3 class="title">Email Campaigns</h3>
+  <span class="text">
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+  </span>
+</div>
+<div class="project">
+  <h3 class="title">Push Notifications</h3>
+  <span class="text">
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+  </span>
+</div>
+{!     Countdown Ticker | Email Autocomplete | Content Upgrades     !}
 {/body}
