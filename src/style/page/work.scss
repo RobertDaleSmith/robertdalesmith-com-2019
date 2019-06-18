@@ -65,12 +65,10 @@ div.project {
       border-width: 0 0 3px 0;
     }
 
-    &.logo {
-      margin: 0 0 16px;
-      width: 320px;
-      img {
-        width: 100%;
-      }
+    img.thumbnail {
+      width: 100%;
+      cursor: pointer;
+      border: solid 1px #dcdcdc;
     }
   }
 

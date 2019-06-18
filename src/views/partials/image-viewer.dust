@@ -1,0 +1,7 @@
+<div class="image_viewer">
+  <div class="image_mask"></div>
+  <div class="image_frame">
+    <div class="close_button"></div>
+    <img src="{src}" />
+  </div>
+</div>

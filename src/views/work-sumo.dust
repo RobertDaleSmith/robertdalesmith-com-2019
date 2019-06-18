@@ -22,10 +22,7 @@
   <h3 class="title">Browser Extension</h3>
   <span class="text">
     <span class="screenshot left">
-      <a class="image" target="_blank" href="#">
-        <img class="logo" src="../../images/screenshots/sumo-chrome-ext.png" title="Sumo chrome Extension" />
-        <a class="link" target="_blank" href="https://chrome.google.com/webstore/detail/dlgipkaoljiajmolhibpngjppeckkjjp">chrome web store</a>
-      </a>
+      <img class="thumbnail" src="../../images/screenshots/sumo-chrome-ext.png" title="View Screenshot" />
     </span>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
   </span>
@@ -33,7 +30,16 @@
 <div class="project">
   <h3 class="title">Click Triggers</h3>
   <span class="text">
+    <span class="screenshot right">
+      <img class="thumbnail" src="../../images/screenshots/sumo-click-triggers-1-thumb.png" title="View Screenshot" />
+    </span>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <span class="screenshot left">
+      <img class="thumbnail" src="../../images/screenshots/sumo-click-triggers-2-thumb.png" title="View Screenshot" />
+    </span>
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
   </span>
 </div>
 <div class="project">

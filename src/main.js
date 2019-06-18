@@ -1,15 +1,29 @@
 import style from './style/main.scss';
 
-// var template = require('./views/partials/social.dust');
+var imageViewer = require('./views/partials/image-viewer.dust');
 
-// dust.render(template, {}, function(err, result){
-//   if(err) console.log(err);
-//   console.log(result);
-//   // document.body.innerHTML = result;
-// });
+document.querySelectorAll('.thumbnail').forEach(element => {
+  element.addEventListener("click", event => {
+    event.preventDefault();
 
-/* wraped render function output method */
-// template({}, function(err, result){
-//   if(err) console.log(err);
-//   console.log(result);
-// });
+    var src = element.getAttribute('src') || '';
+    src = src.replace('-thumb', '-full');
+
+    if (window.innerWidth < 1024) {
+      window.open(src, '_blank');
+      return;
+    }
+
+    dust.render(imageViewer, { src }, (err, result) => {
+      var div = document.createElement('div');
+      div.innerHTML = result;
+      var viewer = div.children[0];
+
+      var closeEvent = e => document.body.removeChild(viewer);
+      viewer.querySelector('.close_button').addEventListener("click", closeEvent);
+      viewer.querySelector('.image_mask').addEventListener("click", closeEvent);
+
+      document.body.appendChild(viewer);
+    });
+  });
+})
