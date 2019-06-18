@@ -45,24 +45,36 @@
 <div class="project">
   <h3 class="title">Automatic Email Responder</h3>
   <span class="text">
+    <span class="screenshot right">
+      <img class="thumbnail" src="../../images/screenshots/sumo-auto-responder-thumb.png" title="View Screenshot" />
+    </span>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
   </span>
 </div>
 <div class="project">
   <h3 class="title">Email Editor</h3>
   <span class="text">
+    <span class="screenshot left">
+      <img class="thumbnail" src="../../images/screenshots/sumo-email-editor-thumb.png" title="View Screenshot" />
+    </span>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
   </span>
 </div>
 <div class="project">
   <h3 class="title">Email Campaigns</h3>
   <span class="text">
+    <span class="screenshot right">
+      <img class="thumbnail" src="../../images/screenshots/sumo-email-campaigns-thumb.png" title="View Screenshot" />
+    </span>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
   </span>
 </div>
 <div class="project">
   <h3 class="title">Push Notifications</h3>
   <span class="text">
+    <span class="screenshot left">
+      <img class="thumbnail" src="../../images/screenshots/sumo-push-thumb.png" title="View Screenshot" />
+    </span>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
   </span>
 </div>

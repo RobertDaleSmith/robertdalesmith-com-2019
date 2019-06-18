@@ -53,12 +53,14 @@ div.project {
 
     &.left {
       float: left;
-      width: calc(320px - 32px);
+      width: calc(320px - 16px);
+      margin-left: 0;
     }
 
     &.right {
       float: right;
-      width: calc(320px - 32px);
+      width: calc(320px - 16px);
+      margin-right: 0;
     }
 
     a.image:hover + a.link {
