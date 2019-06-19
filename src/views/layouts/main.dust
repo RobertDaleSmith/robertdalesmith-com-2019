@@ -5,16 +5,16 @@
     <title>Robert Dale Smith | {+pageTitle/}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <link rel="icon" type="image/x-icon" href="{base}favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="{base}images/icons/mac128k-152.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{base}images/icons/mac128k-152.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{base}images/icons/mac128k-144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{base}images/icons/mac128k-120.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{base}images/icons/mac128k-114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{base}images/icons/mac128k-72.png">
+    <link rel="apple-touch-icon-precomposed" href="{base}images/icons/rds128k-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{base}images/icons/rds128k-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{base}images/icons/rds128k-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{base}images/icons/rds128k-120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{base}images/icons/rds128k-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{base}images/icons/rds128k-72.png">
     <link rel="apple-touch-icon-precomposed" href="{base}images/icons/mac128k-57.png">
     <link rel="icon" href="{base}images/icons/mac128k-32.png" sizes="32x32">
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="{base}images/icons/mac128k-144.png">
+    <meta name="msapplication-TileImage" content="{base}images/icons/rds128k-144.png">
   </head>
   <body>
     <div class="page {+pageType/}">
