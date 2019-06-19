@@ -3,27 +3,45 @@ import style from './style/main.scss';
 var imageViewer = require('./views/partials/image-viewer.dust');
 
 document.querySelectorAll('.thumbnail').forEach(element => {
-  element.addEventListener("click", event => {
+  // bing click event to thumbnail images
+  element.addEventListener('click', event => {
     event.preventDefault();
 
+    // get full image path from clicked thumbnail
     var src = element.getAttribute('src') || '';
     src = src.replace('-thumb', '-full');
 
+    // opens full images in new tab if narrow viewport
     if (window.innerWidth < 1024) {
-      window.open(src, '_blank');
-      return;
+      return window.open(src, '_blank');
     }
 
     dust.render(imageViewer, { src }, (err, result) => {
-      var div = document.createElement('div');
+      // generate elements from rendered html string
+      const div = document.createElement('div');
       div.innerHTML = result;
-      var viewer = div.children[0];
+      const viewerElement = div.children[0];
 
-      var closeEvent = e => document.body.removeChild(viewer);
-      viewer.querySelector('.close_button').addEventListener("click", closeEvent);
-      viewer.querySelector('.image_mask').addEventListener("click", closeEvent);
+      const closeEvent = e => {
+        // only close on esc keydowns
+        if (e.type === 'keydown' && e.keyCode !== 27) return;
 
-      document.body.appendChild(viewer);
+        // checks for existing image viewer
+        const openViewer = document.querySelector('.image_viewer');
+        if (openViewer) {
+          // removes image viewer and keydown listener
+          document.body.removeChild(openViewer);
+          document.removeEventListener('keydown', closeEvent);
+        }
+      };
+
+      // bind clost events to mark, x button, and esc keydown
+      viewerElement.querySelector('.close_button').addEventListener('click', closeEvent);
+      viewerElement.querySelector('.image_mask').addEventListener('click', closeEvent);
+      document.addEventListener('keydown', closeEvent);
+
+      // add image viewer to body
+      document.body.appendChild(viewerElement);
     });
   });
 })
