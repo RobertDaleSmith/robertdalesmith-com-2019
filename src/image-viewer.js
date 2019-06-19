@@ -3,8 +3,9 @@
 import template from './views/partials/image-viewer.dust';
 
 function bindImages(className) {
-  const thumbs = document.querySelectorAll(className || '.thumbnail');
   const getFullPath = path => path.replace('-thumb', '-full');
+  const thumbs = document.querySelectorAll(className || '.thumbnail');
+  let images = [];
 
   function clickDotEvent(event) {
     // remove active state from all dots
@@ -19,17 +20,25 @@ function bindImages(className) {
   }
 
   function closeViewer(event) {
-    // only close on esc keydowns
-    if (event.type === 'keydown' && event.keyCode !== 27) return;
-
     // checks for existing image viewer
     const openViewer = document.querySelector('.image_viewer');
     if (openViewer) {
       // removes image viewer and keydown listener
       document.body.removeChild(openViewer);
-      document.removeEventListener('keydown', closeViewer);
+      document.removeEventListener('keydown', keyDownEvent);
     }
   }
+
+  function keyDownEvent(event) {
+    // only close on esc keydowns
+    if (event.keyCode === 27) closeViewer(event);
+    if (event.keyCode === 37) openPrevImage();
+    if (event.keyCode === 39) openNextImage();
+  }
+
+  function openNextImage() {}
+
+  function openPrevImage() {}
 
   function openViewer(event) {
     event.preventDefault();
@@ -43,10 +52,10 @@ function bindImages(className) {
     if (window.innerWidth < 1024) return window.open(src, '_blank');
 
     // sets clicked images matching dot active
-    const images = [...thumbs].map(thumb => {
+    images = [...thumbs].map(thumb => {
       const thisSrc = getFullPath(thumb.getAttribute('src'));
       return {
-        active: (thisSrc === src) || undefined,
+        active: (thisSrc === src) || false,
         src: thisSrc,
       };
     });
@@ -60,7 +69,7 @@ function bindImages(className) {
       // bind clost events to mark, x button, and esc keydown
       viewer.querySelector('.close_button').addEventListener('click', closeViewer);
       viewer.querySelector('.image_mask').addEventListener('click', closeViewer);
-      document.addEventListener('keydown', closeViewer);
+      document.addEventListener('keydown', keyDownEvent);
 
       // add image viewer to body
       document.body.appendChild(viewer);
