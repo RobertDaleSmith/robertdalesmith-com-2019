@@ -21,8 +21,12 @@ div.image_viewer {
     display: inline-block;
     position: relative;
 
-    margin: 40px; 
+    margin: 40px;
     padding: 40px;
+    padding-bottom: 60px;
+
+    min-width: 320px;
+    min-height: 200px;
 
     border-radius: 8px;
     border-width: 1px;
@@ -84,6 +88,36 @@ div.image_viewer {
       width: 100%;
       border: solid 1px #dcdcdc;
       border-radius: 8px;
+    }
+
+    .image_others {
+      display: inline-block;
+      position: absolute;
+      text-align: center;
+
+      bottom: 0px;
+      left: 0px;
+      width: calc(100% - 24px);
+      height: 30px;
+      padding: 16px;
+
+      .image_other {
+        display: inline-block;
+        position: relative;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        border-style: solid;
+        border-color: #fff;
+        border-width: 8px;
+        background-color: #ddd;
+        margin: 4px;
+        cursor: pointer;
+
+        &.active {
+          background-color: #333;
+        }
+      }
     }
   }
 }

@@ -2,6 +2,13 @@
   <div class="image_mask"></div>
   <div class="image_frame">
     <div class="close_button"></div>
-    <img src="{src}" />
+    <img class="image_preview" src="{src}" />
+    {?images}
+      <div class="image_others">
+        {#images}
+          <div class="image_other{?active} active{/active}" data-src="{src}"></div>
+        {/images}
+      </div>
+    {/images}
   </div>
 </div>
