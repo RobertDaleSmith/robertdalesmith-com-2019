@@ -63,7 +63,7 @@
     </span>
     <p>Starting as just an experiment, the automatic email responder quickly became a feature enabled on the majority of all new forms created on Sumo.</p>
     <p>The idea was simple. Make it easy for people to have an email send instantly after a visitor to their site subscribes.</p>
-    <p>Welcome and content upgrade emails are great ways to get those visitors to come back to your website. Version one only had support for plain text emails, but later evolved into a totally custom rich-text email editor.</p>
+    <p>Welcome and content upgrade emails are great ways to get those visitors to come back to your website. Version one only had support for plain-text emails, but later evolved into a totally custom rich-text email editor.</p>
     <p>You can learn more about how to send your own auto response emails <a href="https://help.sumo.com/hc/en-us/articles/115002787968-Setting-up-a-Sumo-Autoresponse-Email" target="_blank">here</a>.</p>
   </span>
 </div>
@@ -73,7 +73,10 @@
     <span class="screenshot right">
       <img class="thumbnail" src="../../images/screenshots/sumo-email-editor-thumb.png" title="View Screenshot" />
     </span>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>Although we only started with support for plain-text emails, I quickly implemented a markdown editor for easily creating rich-text emails with links and images.</p>
+    <p>Wanting to make it even easier, I eventually wrote a custom fully featured rich-text editor from scratch using the <a href="https://github.com/ianstormtaylor/slate" target="_blank">Slate</a> framework.</p>
+    <p>I wrote custom Slate plugins for all the text style marks, bold, italics, underline, strikethrough, highlight, colors, and super/sub-script. Also built plugins for various block types like paragraph, blockquote, code, heading, link, image, button, and product feature.</p>
+    <p>These along with numerous other features you would expect to find in any other word processing software out there, makes this one of the projects I am most proud of at Sumo.</p>
   </span>
 </div>
 <div class="project">
