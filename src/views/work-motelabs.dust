@@ -7,7 +7,7 @@
 <div class="project intro">
   <h3 class="title">Mote Labs</h3>
   <span class="text">
-    <span class="screenshot logo right">
+    <span class="screenshot link right">
       <a class="image" href="https://www.motelabs.com/" target="_blank">
         <img src="../../images/logos/mote-labs.png" title="Mote Labs" />
       </a>
@@ -21,7 +21,7 @@
 <div class="project">
   <h3 class="title">Chromemote</h3>
   <span class="text">
-    <span class="screenshot left">
+    <span class="screenshot link left">
       <a class="image" target="_blank" href="http://www.chromemote.com/">
         <img class="logo" src="../../images/logos/chromemote.png" title="Chromemote" />
       </a>
@@ -37,7 +37,7 @@
 <div class="project">
   <h3 class="title">Flinger</h3>
   <span class="text">
-    <span class="screenshot right">
+    <span class="screenshot link right">
       <a class="image" target="_blank" href="https://flinger.motelabs.com/">
         <img class="logo" src="../../images/logos/flinger.png" title="Flinger.co" />
       </a>

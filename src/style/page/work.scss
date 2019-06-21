@@ -44,7 +44,7 @@ div.project {
     position: relative;
     width: calc(100% - 32px);
     max-width: 100%;
-    margin: 0 16px 16px;
+    margin: 0 16px 0;
     text-align: center;
 
     img {
@@ -71,6 +71,11 @@ div.project {
       width: 100%;
       cursor: pointer;
       border: solid 1px #dcdcdc;
+      float: inherit;
+    }
+
+    &.link {
+      margin-bottom: 16px;
     }
   }
 

@@ -7,15 +7,15 @@
 <div class="project intro">
   <h3 class="title">Sumo.com</h3>
   <span class="text">
-    <span class="screenshot logo right">
-      <a class="image" href="https://www.sumo.com/" target="_blank">
+    <span class="screenshot link right">
+      <a class="image" href="https://www.sumo.com?ref=robert-dale-smith&src=robert-dale-smith" target="_blank">
         <img src="../../images/logos/sumo-com.png" title="Sumo.com" />
       </a>
-      <a class="link" target="_blank" href="https://www.sumo.com/">sumo.com</a>
+      <a class="link" target="_blank" href="https://www.sumo.com?ref=robert-dale-smith&src=robert-dale-smith">sumo.com</a>
     </span>
     <p>As an early engineer at Sumo I got to play a key role in building some of the core features that have helped thousands of online businesses to grow.</p>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>I was involved with everything from squashing bugs for the CX team, to developing complete features from the ground up. I got to work on a bunch of fun experimental ideas. Some didn't work out but several others became core features of the product. </p>
+    <p>When I joined the team the product was stilled called SumoMe. Initially we had an excellent tool for helping websites of all kinds to collect emails. I helped expand the product by building ways for users to communicate with their subscribers through email and web push notifications.</p>
   </span>
 </div>
 <div class="project">
@@ -24,7 +24,8 @@
     <span class="screenshot left">
       <img class="thumbnail" src="../../images/screenshots/sumo-chrome-ext.png" title="View Screenshot" />
     </span>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>No one asked me to build a Chrome extension but I wanted it to exist. Ended up being pretty useful for both users and our dev and CX teams.</p>
+    <p>To access our tools from your own website, you could type S, U, M, O, and [up-arrow]. The tool I built made it a simple single click.</p><p>Also, hidden within the extension were a half-dozen useful development tools we all used for troubleshooting issues.</p>
   </span>
 </div>
 <div class="project">
@@ -33,19 +34,29 @@
     <span class="screenshot right">
       <img class="thumbnail" src="../../images/screenshots/sumo-click-triggers-1-thumb.png" title="View Screenshot" />
     </span>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>Initially popup forms were timed or triggered by exit intent. An early feature I got to add was the ability to trigger forms to appear when users clicked specific custome elements on the page.</p>
+    <p>The goal of the project was to provide very simple HTML tag that users could drop in anywhere on their site. Then when a visitor clicks that element it would open up the popup with a call to action or an email collection form.</p>
     <span class="screenshot left">
       <img class="thumbnail" src="../../images/screenshots/sumo-click-triggers-2-thumb.png" title="View Screenshot" />
     </span>
+    <p>This feature combined with content upgrades became pretty popular technique for growing subscribers for our users.</p>
+    <p></p>
+  </span>
+</div>
+<div class="project">
+  <h3 class="title">Content Upgrades</h3>
+  <span class="text">
+    <span class="screenshot right">
+      <img class="thumbnail" src="../../images/screenshots/sumo-content-upgrades-1-thumb.png" title="View Screenshot" />
+    </span>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
   </span>
 </div>
 <div class="project">
   <h3 class="title">Automatic Email Responder</h3>
   <span class="text">
-    <span class="screenshot right">
+    <span class="screenshot left">
       <img class="thumbnail" src="../../images/screenshots/sumo-auto-responder-thumb.png" title="View Screenshot" />
     </span>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
@@ -54,7 +65,7 @@
 <div class="project">
   <h3 class="title">Email Editor</h3>
   <span class="text">
-    <span class="screenshot left">
+    <span class="screenshot right">
       <img class="thumbnail" src="../../images/screenshots/sumo-email-editor-thumb.png" title="View Screenshot" />
     </span>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
@@ -63,7 +74,7 @@
 <div class="project">
   <h3 class="title">Email Campaigns</h3>
   <span class="text">
-    <span class="screenshot right">
+    <span class="screenshot left">
       <img class="thumbnail" src="../../images/screenshots/sumo-email-campaigns-thumb.png" title="View Screenshot" />
     </span>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
@@ -72,7 +83,7 @@
 <div class="project">
   <h3 class="title">Push Notifications</h3>
   <span class="text">
-    <span class="screenshot left">
+    <span class="screenshot right">
       <img class="thumbnail" src="../../images/screenshots/sumo-push-thumb.png" title="View Screenshot" />
     </span>
     <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>

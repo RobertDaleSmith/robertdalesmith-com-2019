@@ -7,7 +7,7 @@
 <div class="project intro">
   <h3 class="title">Bouncing Pixel</h3>
   <span class="text">
-    <span class="screenshot logo right">
+    <span class="screenshot link right">
       <a class="image" href="https://www.bouncingpixel.com/" target="_blank">
         <img src="../../images/logos/bouncing-pixel.png" title="Bouncing Pixel" />
       </a>
@@ -21,7 +21,7 @@
 <div class="project">
   <h3 class="title">BP Interactive Map</h3>
   <span class="text">
-    <span class="screenshot">
+    <span class="screenshot link">
       <a class="image" target="_blank" href="http://bp-otc-2015.herokuapp.com/">
         <img class="logo" src="../../images/screenshots/bp-otc-2015.gif" title="BP Interactive Map" />
       </a>
@@ -33,31 +33,33 @@
 <div class="project">
   <h3 class="title">Tic Helper</h3>
   <span class="text">
-    <span class="screenshot left">
+    <span class="screenshot link left">
       <a class="image" target="_blank" href="https://www.tichelper.com/">
         <img class="logo" src="../../images/screenshots/tic-helper.png" title="TicHelper" />
       </a>
       <a class="link" target="_blank" href="https://www.tichelper.com/">tichelper.com</a>
     </span>
-    <p>Collaborated with one other developer and the awesome designers at <a href="http://www.aleberrycreative.com/" target="_blank">Aleberry</a> to develop a single-page application that provides at-home training sessions to help kids with Tourette syndrome. Crafted the frontend using Google’s <a href="http://www.polymer-project.org/" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">Polymer</a>. Built backend on Node/Express/Mongo for user authentication and data storage. Implemented Stripe API for registration and subscription fees. Project’s development featured on <a href="http://www.npr.org/sections/health-shots/2015/07/22/424722960/for-kids-with-tourettes-at-home-training-could-help" target="_blank">NPR</a>.</p>
+    <p>Collaborated with one other developer and the awesome designers at <a href="http://www.aleberrycreative.com/" target="_blank">Aleberry</a> to develop a single-page application that provides at-home training sessions to help kids with Tourette syndrome.</p>
+    <p>Built the frontend using Google’s <a href="http://www.polymer-project.org/" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">Polymer</a>. Built backend on Node/Express/Mongo for user authentication and data storage. Implemented Stripe API for registration and subscription fees. Project’s development featured on <a href="http://www.npr.org/sections/health-shots/2015/07/22/424722960/for-kids-with-tourettes-at-home-training-could-help" target="_blank">NPR</a>.</p>
   </span>
 </div>
 <div class="project">
   <h3 class="title">Children's Museum of Houston</h3>
   <span class="text">
-    <span class="screenshot left">
+    <span class="screenshot link right">
       <a class="image" target="_blank" href="https://www.cmhouston.org/">
         <img class="logo" src="../../images/screenshots/cm-houston.png" title="Children's Museum of Houston" />
       </a>
       <a class="link" target="_blank" href="https://www.cmhouston.org/">cmhouston.org</a>
     </span>
-    <p>Led development with three designers and one other developer to create a responsive, <a href="http://www.cmhouston.org/?theme=winter" target="_blank">themeable</a> website with a totally custom built CMS tailored to the museum’s needs. Crafted the frontend using <a href="http://www.dustjs.com/" target="_blank">DustJS</a> with a bit of jQuery. Implemented ImageMagic on the backend to automate resize and cropping of each page’s primary content image. Used GridFS to store user uploaded files within the database itself.</p>
+    <p>Led development with three designers and one other developer to create a responsive, <a href="http://www.cmhouston.org/?theme=winter" target="_blank">themeable</a> website with a totally custom built CMS tailored to the museum’s needs.</p>
+    <p>Crafted the frontend using <a href="http://www.dustjs.com/" target="_blank">DustJS</a> with a bit of jQuery. Implemented ImageMagic on the backend to automate resize and cropping of each page’s primary content image. Used GridFS to store user uploaded files within the database itself.</p>
   </span>
 </div>
 <div class="project">
   <h3 class="title">Brave is Beautiful</h3>
   <span class="text">
-    <span class="screenshot left">
+    <span class="screenshot link left">
       <a class="image" target="_blank" href="https://web.archive.org/web/20181128125418/http://www.braveisbeautiful.com/">
         <img class="logo" src="../../images/screenshots/brave-is-beautiful.png" title="Brave is Beautiful" />
       </a>
@@ -70,7 +72,7 @@
 <div class="project">
   <h3 class="title">Cottonelle micro-site</h3>
   <span class="text">
-    <span class="screenshot left">
+    <span class="screenshot link right">
       <a class="image" target="_blank" href="https://web.archive.org/web/20160320203555/http://www.wipingpoetic.com/">
         <img class="logo" src="../../images/screenshots/cottonelle.png" title="#LetsTalkBums" />
       </a>
