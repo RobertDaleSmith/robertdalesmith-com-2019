@@ -25,7 +25,7 @@
       <img class="thumbnail" src="../../images/screenshots/sumo-chrome-ext.png" title="View Screenshot" />
     </span>
     <p>No one asked me to build a Chrome extension but I wanted it to exist. Ended up being pretty useful for both users and our dev and CX teams.</p>
-    <p>To access our tools from your own website, you could type S, U, M, O, and [up-arrow]. The tool I built made it a simple single click.</p><p>Also, hidden within the extension were a half-dozen useful development tools we all used for troubleshooting issues.</p>
+    <p>To access our app from your own website, you could type S, U, M, O, and [up-arrow]. The extension I built made it a single click.</p><p>Also, hidden within the extension were a half-dozen useful development tools we all used for troubleshooting issues. One tool made it easy to swap out production for dev versions of our app directly on users sites for local testing before deploying changes.</p>
   </span>
 </div>
 <div class="project">
@@ -61,7 +61,10 @@
     <span class="screenshot left">
       <img class="thumbnail" src="../../images/screenshots/sumo-auto-responder-thumb.png" title="View Screenshot" />
     </span>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>Starting as just an experiment, the automatic email responder quickly became a feature enabled on the majority of all new forms created on Sumo.</p>
+    <p>The idea was simple. Make it easy for people to have an email send instantly after a visitor to their site subscribes.</p>
+    <p>Welcome and content upgrade emails are great ways to get those visitors to come back to your website. Version one only had support for plain text emails, but later evolved into a totally custom rich-text email editor.</p>
+    <p>You can learn more about how to send your own auto response emails <a href="https://help.sumo.com/hc/en-us/articles/115002787968-Setting-up-a-Sumo-Autoresponse-Email" target="_blank">here</a>.</p>
   </span>
 </div>
 <div class="project">
