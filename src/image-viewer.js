@@ -21,10 +21,11 @@ function bindImages(className) {
 
   function closeViewer(event) {
     // checks for existing image viewer
-    const openViewer = document.querySelector('.image_viewer');
+    const openViewer = document.querySelector('div.image_viewer');
     if (openViewer) {
       // removes image viewer and keydown listener
       document.body.removeChild(openViewer);
+      document.body.className = document.body.className.replace('image_viewer', '').trim();
       document.removeEventListener('keydown', keyDownEvent);
     }
   }
@@ -73,6 +74,7 @@ function bindImages(className) {
 
       // add image viewer to body
       document.body.appendChild(viewer);
+      document.body.className = `${document.body.className} image_viewer`;
 
       // bind click event to all other image dots
       const otherImageDots = document.querySelectorAll('.image_other');
