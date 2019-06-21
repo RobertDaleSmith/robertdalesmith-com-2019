@@ -15,7 +15,7 @@
     </span>
     <p>As an early engineer at Sumo I got to play a key role in building some of the core features that have helped thousands of online businesses to grow.</p>
     <p>I was involved with everything from squashing bugs for the CX team, to developing complete features from the ground up. I got to work on a bunch of fun experimental ideas. Some didn't work out but several others became core features of the product. </p>
-    <p>When I joined the team the product was stilled called SumoMe. Initially we had an excellent tool for helping websites of all kinds to collect emails. I helped expand the product by building ways for users to communicate with their subscribers through email and web push notifications.</p>
+    <p>When I joined the team the product was stilled called SumoMe. From my start we already had a great tool for helping websites of all kinds to collect emails. I helped expand the product in many ways but largely by building ways for users to communicate with their subscribers.</p>
   </span>
 </div>
 <div class="project">
@@ -76,16 +76,17 @@
     <p>Although we only started with support for plain-text emails, I quickly implemented a markdown editor for easily creating rich-text emails with links and images.</p>
     <p>Wanting to make it even easier, I eventually wrote a custom fully featured rich-text editor from scratch using the <a href="https://github.com/ianstormtaylor/slate" target="_blank">Slate</a> framework.</p>
     <p>I wrote custom Slate plugins for all the text style marks, bold, italics, underline, strikethrough, highlight, colors, and super/sub-script. Also built plugins for various block types like paragraph, blockquote, code, heading, link, image, button, and product feature.</p>
-    <p>These along with numerous other features you would expect to find in any other word processing software out there, makes this one of the projects I am most proud of at Sumo.</p>
+    <p>These along with numerous other features that you would expect to find in any other word processing software out there, makes this one of the projects I am most proud of at Sumo.</p>
   </span>
 </div>
 <div class="project">
-  <h3 class="title">Email Campaigns</h3>
+  <h3 class="title">Message Center</h3>
   <span class="text">
     <span class="screenshot left">
       <img class="thumbnail" src="../../images/screenshots/sumo-email-campaigns-thumb.png" title="View Screenshot" />
     </span>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>Naturally we wanted to open up more ways for users to communicate with their subscribers. So building upon my existing email creation work, we added functionality to allow users to create targeted scheduled email campaigns.</p>
+    <p>For this to all work we also added more options to manage subscribers and ways to easily break them into groups that can be included or excluded from email campaign sends.</p>
   </span>
 </div>
 <div class="project">
@@ -94,8 +95,9 @@
     <span class="screenshot right">
       <img class="thumbnail" src="../../images/screenshots/sumo-push-thumb.png" title="View Screenshot" />
     </span>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>I built a full <a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API" target="_blank">web push</a> notification service to both allow users to collect push subscribers and to send them notifications. Once I had the backend push service built, I still had to update our existng subscriber collection forms and message sending features to support push.</p>
+    <p>Although the push notifications had a high click through rate, the feature was removed for new users in order to simplify the product and to focus on what Sumo did best, email.</p>
   </span>
 </div>
-{!     Countdown Ticker | Email Autocomplete | Content Upgrades     !}
+{!     Countdown Ticker | Email Autocomplete     !}
 {/body}
