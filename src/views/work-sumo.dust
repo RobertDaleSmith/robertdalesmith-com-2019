@@ -34,12 +34,13 @@
     <span class="screenshot right">
       <img class="thumbnail" src="../../images/screenshots/sumo-click-triggers-1-thumb.png" title="View Screenshot" />
     </span>
-    <p>Initially popup forms were timed or triggered by exit intent. An early feature I got to add was the ability to trigger forms to appear when users clicked specific custome elements on the page.</p>
+    <p>Initially popup forms were timed or triggered by an exit intent. An early feature I got to add was the ability to trigger forms to appear when users clicked specific custom elements on the page.</p>
     <p>The goal of the project was to provide very simple HTML tag that users could drop in anywhere on their site. Then when a visitor clicks that element it would open up the popup with a call to action or an email collection form.</p>
     <span class="screenshot left">
       <img class="thumbnail" src="../../images/screenshots/sumo-click-triggers-2-thumb.png" title="View Screenshot" />
     </span>
     <p>This feature combined with content upgrades became pretty popular technique for growing subscribers for our users.</p>
+    <p>You can learn more about how to setup your own click triggered popup forms <a href="https://help.sumo.com/hc/en-us/articles/218689778-Getting-Started-with-Click-Triggers" target="_blank">here</a>.</p>
     <p></p>
   </span>
 </div>
@@ -49,8 +50,9 @@
     <span class="screenshot right">
       <img class="thumbnail" src="../../images/screenshots/sumo-content-upgrades-thumb.png" title="View Screenshot" />
     </span>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
-    <p>... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... </p>
+    <p>When I started working with Sumo, I didn't even know what a content upgrade was. But after seeing how some users were gaining more subscribers by offering a redirect to some sort of downloadable content after subscribing to their newsletter, I knew it had to be a feature. </p>
+    <p>I added support for uploading all types of files to be hosted directly by Sumo, rather than users going to Dropbox as they previously had been. Then I added the ability for users to offer content upgrades through three different ways, redirect after a visitor subscribes, download when a visitor clicks a call to action button visible after subscribing, or as a link within an automatic email response.</p>
+    <p>You can learn more about how to offer your own content upgrades <a href="https://help.sumo.com/hc/en-us/articles/360025521311-How-Do-I-Setup-A-Content-Upgrade-" target="_blank">here</a>.</p>
   </span>
 </div>
 <div class="project">
