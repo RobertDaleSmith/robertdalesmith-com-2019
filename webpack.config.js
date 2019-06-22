@@ -107,6 +107,10 @@ module.exports = {
       filename: 'work/mote-labs/index.html',
       template: '!!dust-html-loader?base=../../!src/views/work-motelabs.dust',
     }),
+    new HtmlWebpackPlugin({
+      filename: '404/index.html',
+      template: '!!dust-html-loader?base=/!src/views/404.dust',
+    }),
     new HtmlWebpackInlineSVGPlugin({
         runPreEmit: true,
     }),

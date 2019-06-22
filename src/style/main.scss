@@ -32,6 +32,13 @@ div.page {
     }
   }
 
+  &.e404 {
+    h3 {
+      font-size: 50px;
+      margin: 150px 0;
+    }
+  }
+
   @import 'page/home';
   @import 'page/work';
 }

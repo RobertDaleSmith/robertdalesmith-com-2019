@@ -1,0 +1,9 @@
+{>"layouts/main"/}
+
+{<pageTitle}404 Not Found{/pageTitle}
+{<pageType}e404{/pageType}
+
+{<body}
+  <h3>404 Not Found</h3>
+  <script>setTimeout(function(){window.location.href='/'}, 5000);</script>
+{/body}
