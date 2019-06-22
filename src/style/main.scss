@@ -34,8 +34,11 @@ div.page {
 
   &.e404 {
     h3 {
-      font-size: 50px;
-      margin: 150px 0;
+      font-size: 64px;
+      margin: 64px 0 24px;
+    }
+    iframe.giphy-embed {
+      max-width: calc(100% - 24px);
     }
   }
 
