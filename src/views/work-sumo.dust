@@ -75,7 +75,7 @@
     </span>
     <p>Although we only started with support for plain-text emails, I quickly implemented a markdown editor for easily creating rich-text emails with links and images.</p>
     <p>Wanting to make it even easier, I eventually wrote a custom fully featured rich-text editor from scratch using the <a href="https://github.com/ianstormtaylor/slate" target="_blank">Slate</a> framework.</p>
-    <p>I wrote custom Slate plugins for all the text style marks, bold, italics, underline, strikethrough, highlight, colors, and super/sub-script. Also built plugins for various block types like paragraph, blockquote, code, heading, link, image, button, and product feature.</p>
+    <p>I wrote custom Slate plugins for all the text style marks, bold, italics, underline, strikethrough, highlight, colors, and super/sub-script. Also built plugins for various block types like paragraph, block-quote, code, heading, link, image, button, and product feature.</p>
     <p>These along with numerous other features that you would expect to find in any other word processing software out there, makes this one of the projects I am most proud of at Sumo.</p>
   </span>
 </div>
@@ -95,7 +95,7 @@
     <span class="screenshot right">
       <img class="thumbnail" src="../../images/screenshots/sumo-push-thumb.png" title="View Screenshot" />
     </span>
-    <p>I built a full <a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API" target="_blank">web push</a> notification service to both allow users to collect push subscribers and to send them notifications. Once I had the backend push service built, I still had to update our existng subscriber collection forms and message sending features to support push.</p>
+    <p>I built a full <a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API" target="_blank">web push</a> notification service to both allow users to collect push subscribers and to send them notifications. Once I had the backend push service built, I still had to update our existing subscriber collection forms and message sending features to support push.</p>
     <p>Although the push notifications had a high click through rate, the feature was removed for new users in order to simplify the product and to focus on what Sumo did best, email.</p>
   </span>
 </div>

@@ -15,7 +15,7 @@
     </span>
     <p>As the founder and engineer at Mote Labs I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.</p>
     <p>As apart of Microsoft Imagine Cup 2013, we were one of fifteen teams Microsoft flew out to Silicon Valley for a week long intensive startup bootcamp.</p>
-    <p>It was here I was introduced to node.js, and pivoted to build Flinger. Went on to participate in the first class of the <a class="link red" href="http://redlabs.uh.edu/" target="_blank">RED Labs</a> startup accelerator at the Universify of Houston.</p>
+    <p>It was here I was introduced to node.js, and pivoted to build Flinger. Went on to participate in the first class of the <a class="link red" href="http://redlabs.uh.edu/" target="_blank">RED Labs</a> startup accelerator at the University of Houston.</p>
   </span>
 </div>
 <div class="project">
@@ -43,7 +43,7 @@
       </a>
       <a class="link" target="_blank" href="https://flinger.motelabs.com/">flinger.motelabs.com</a>
     </span>
-    <p>A cross-platform remote control web application to enable users to control video playback on a second screen web or mobile app. I was able to mplement real-time communication through a backend built on <a href="https://github.com/share/sharedb" target="_blank">ShareDB</a>.</p>
+    <p>A cross-platform remote control web application to enable users to control video playback on a second screen web or mobile app. I was able to implement real-time communication through a backend built on <a href="https://github.com/share/sharedb" target="_blank">ShareDB</a>.</p>
     <p>This enabled a virtually unlimited number of remotes to control unlimited viewer screens. I developed a single JavaScript source code for the remote app and ported it to Android, iOS, WindowsPhone, Windows 8, as well as a Chrome browser extension.</p>
     <p>In 2014, we returned to win first place in both Microsoft Imagine Cup's pitch video and UI/UX <a href="https://web.archive.org/web/20160328192206/http://www.imaginecup.com/Blog/Details/meet-the-ux-challenge-winners" target="_blank">challenges</a>.</p>
     <br />
