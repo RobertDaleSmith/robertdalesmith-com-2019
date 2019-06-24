@@ -22,7 +22,7 @@ module.exports = {
     path: path.resolve(__dirname, 'build'),
     // publicPath: '/'
   },
-  watch: true,
+  watch: devMode,
   resolveLoader: {
     alias: {
       'dust-loader-complete': path.resolve('./libs/dust-loader-complete.js')

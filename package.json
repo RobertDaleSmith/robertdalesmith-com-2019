@@ -10,7 +10,8 @@
     "start-o": "webpack-dev-server --open",
     "server": "node server.js",
     "build": "NODE_ENV=production webpack --mode production",
-    "dev": "NODE_ENV=development webpack --mode development"
+    "dev": "NODE_ENV=development webpack --mode development",
+    "deploy": "NODE_ENV=production webpack --mode production; duck --upload ftps://robertsmith@ftp.robertdalesmith.com/public_html build -existing compare"
   },
   "keywords": [],
   "author": "RobertDaleSmith",
