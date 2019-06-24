@@ -20,7 +20,6 @@ module.exports = {
   output: {
     filename: devMode ? 'js/[name].js' : 'js/[name].[hash].js',
     path: path.resolve(__dirname, 'build'),
-    // publicPath: '/'
   },
   watch: devMode,
   resolveLoader: {
@@ -68,8 +67,7 @@ module.exports = {
               hmr: devMode,
             },
           }, 'css-loader', {
-            loader: 'sass-loader',
-            // query: { includePaths: [path.resolve(__dirname, 'node_modules')] }
+            loader: 'sass-loader'
           }
         ]
       },
@@ -115,8 +113,8 @@ module.exports = {
         runPreEmit: true,
     }),
     new MiniCssExtractPlugin({
-      filename: devMode ? 'style/[name].css' : 'style/[name].[hash].css',
-      chunkFilename: devMode ? 'style/[id].css' : 'style/[id].[hash].css',
+      filename: devMode ? 'css/[name].css' : 'css/[name].[hash].css',
+      chunkFilename: devMode ? 'css/[id].css' : 'css/[id].[hash].css',
     }),
     new CopyWebpackPlugin([{
       from: 'src/public',
