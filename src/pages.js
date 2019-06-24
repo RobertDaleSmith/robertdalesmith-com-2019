@@ -24,7 +24,7 @@ function loadPage(href, history) {
     const pageTitle = `Robert Dale Smith | ${title}`;
 
     // update history state and pathName
-    if(!history) window.history.pushState({ pathName, pageTitle }, pageTitle, `${pathName}`);
+    if (!history) window.history.pushState({ pathName, pageTitle }, pageTitle, `${pathName}`);
 
     document.title = pageTitle;
 
@@ -32,8 +32,14 @@ function loadPage(href, history) {
     document.querySelector('.content').innerHTML = html;
 
     // scroll to top of page/content
-    if(!history) document.scrollingElement.scrollTo(0, 0);
-    // document.querySelector('.content').scrollIntoView();
+    if (!history) {
+      if (pathName === '/') {
+        document.scrollingElement.scrollTo(0, 0);
+      } else {
+        const y = document.querySelector('.content').offsetTop;
+        document.scrollingElement.scrollTo(0, y - 24);
+      }
+    }
 
     // sets page type class
     document.querySelector('.page').className = `page ${type}`;
@@ -99,10 +105,10 @@ function init() {
   );
 
   // listen for browser back/forward
-  window.onpopstate = function(e) {
-    if(e.state) {
-      const href = getPathName(e.state.pathName);
-      loadPage(href, true);
+  window.onpopstate = function(event) {
+    const { state } = event;
+    if (state && state.pathName) {
+      loadPage(getPathName(state.pathName), true);
     }
   };
 
