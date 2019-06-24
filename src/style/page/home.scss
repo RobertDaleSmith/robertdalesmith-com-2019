@@ -1,3 +1,14 @@
+&.home {
+  a.home {
+    cursor: default;
+
+    &:hover, &:active {
+      border: 0px;
+      outline: none;
+    }
+  }
+}
+
 div.about {
   display: block;
   position: relative;

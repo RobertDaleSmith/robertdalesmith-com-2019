@@ -6,6 +6,6 @@ import style from './style/main.scss';
 import viewer from './image-viewer.js';
 viewer.bindImages('.thumbnail');
 
-// initialize google analytics
-import ga from './google-analytics.js';
-ga.init();
+// bind page links for single page load
+import pages from './pages.js';
+pages.init();

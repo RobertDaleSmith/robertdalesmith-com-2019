@@ -1,4 +1,5 @@
-'use-strict';
+
+var GA_TRACKING_ID = 'UA-31879246-1';
 
 function gtag(){
   window.dataLayer = window.dataLayer || [];
@@ -9,7 +10,14 @@ function init() {
   if (process.env.NODE_ENV !== 'production') return;
 
   gtag('js', new Date());
-  gtag('config', 'UA-31879246-1');
+  gtag('config', GA_TRACKING_ID);
 }
 
-module.exports = { init };
+function pageView(pagePath) {
+  if (process.env.NODE_ENV !== 'production') return;
+
+  gtag('send', 'pageview', pagePath);
+  gtag('config', GA_TRACKING_ID, { 'page_path': pagePath });
+}
+
+module.exports = { init, pageView };

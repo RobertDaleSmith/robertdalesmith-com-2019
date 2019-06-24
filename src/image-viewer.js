@@ -1,5 +1,3 @@
-'use-strict';
-
 import template from './views/partials/image-viewer.dust';
 
 function bindImages(className) {

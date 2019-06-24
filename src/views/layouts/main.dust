@@ -1,47 +1,51 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Robert Dale Smith | {+pageTitle/}</title>
+{#content}
+  {+body/}
+{:else}
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Robert Dale Smith | {+pageTitle/}</title>
 
-    <link rel="icon" href="{base}favicon.ico" type="image/x-icon">
-    <link rel="icon" href="{base}images/icons/mac128k-32.png" sizes="32x32">
-    <link rel="apple-touch-icon-precomposed" href="{base}images/icons/rds128k-152.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{base}images/icons/rds128k-152.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{base}images/icons/rds128k-144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{base}images/icons/rds128k-120.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{base}images/icons/rds128k-114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{base}images/icons/rds128k-72.png">
-    <link rel="apple-touch-icon-precomposed" href="{base}images/icons/mac128k-57.png">
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="/images/icons/mac128k-32.png" sizes="32x32">
+      <link rel="apple-touch-icon-precomposed" href="/images/icons/rds128k-152.png">
+      <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/icons/rds128k-152.png">
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icons/rds128k-144.png">
+      <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/icons/rds128k-120.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/rds128k-114.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/icons/rds128k-72.png">
+      <link rel="apple-touch-icon-precomposed" href="/images/icons/mac128k-57.png">
 
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{base}images/icons/rds128k-144.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/images/icons/rds128k-144.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    {! Twitter Card data !}
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@RobertDaleSmith">
-    <meta name="twitter:title" content="Robert Dale Smith | {+pageTitle/}">
-    <meta name="twitter:description" content="Full stack web developer and road cyclist in Austin, Texas">
-    <meta name="twitter:creator" content="@RobertDaleSmith">
-    <meta name="twitter:image" content="{base}images/icons/twitter-card.png">
+      {! Twitter Card data !}
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@RobertDaleSmith">
+      <meta name="twitter:title" content="Robert Dale Smith | {+pageTitle/}">
+      <meta name="twitter:description" content="Full stack web developer and road cyclist in Austin, Texas">
+      <meta name="twitter:creator" content="@RobertDaleSmith">
+      <meta name="twitter:image" content="/images/icons/twitter-card.png">
 
-    {! Open Graph data !}
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Robert Dale Smith">
-    <meta property="og:title" content="Robert Dale Smith | {+pageTitle/}">
-    <meta property="og:description" content="Full stack web developer and road cyclist in Austin, Texas">
-    <meta property="og:url" content="https://robertdalesmith.com/">
-    <meta property="og:image" content="{base}images/icons/og-image.png">
+      {! Open Graph data !}
+      <meta property="og:type" content="website">
+      <meta property="og:site_name" content="Robert Dale Smith">
+      <meta property="og:title" content="Robert Dale Smith | {+pageTitle/}">
+      <meta property="og:description" content="Full stack web developer and road cyclist in Austin, Texas">
+      <meta property="og:url" content="https://robertdalesmith.com/">
+      <meta property="og:image" content="/images/icons/og-image.png">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31879246-1"></script>
-  </head>
-  <body>
-    <div class="page {+pageType/}">
-      {>"partials/header"/}
-      {+body/}
-      {>"partials/footer"/}
-    </div>
-  </body>
-</html>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31879246-1"></script>
+    </head>
+    <body>
+      <div class="page {+pageType/}">
+        {>"partials/header"/}
+        <div class="content">{+body/}</div>
+        {>"partials/footer"/}
+      </div>
+    </body>
+  </html>
+{/content}

@@ -4,7 +4,7 @@
 {<pageType}error{/pageType}
 
 {<body}
-  <h3>404</h3>
-  <iframe src="https://giphy.com/embed/XreQmk7ETCak0" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-  <script>setTimeout(function(){window.location.href='/'}, 10000);</script>
+<h3>404</h3>
+<iframe src="https://giphy.com/embed/XreQmk7ETCak0" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<script>setTimeout(function(){window.location.href='/'}, 10000);</script>
 {/body}

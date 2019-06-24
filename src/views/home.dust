@@ -27,13 +27,13 @@
   <h3 class="title">Work</h3>
   <div class="job_row">
     <span class="job_col">
-      <a class="image logo" href="work/sumo"><img src="images/logos/sumo-com.png" title="Sumo.com" /></a>
+      <a class="image logo page" href="work/sumo"><img src="images/logos/sumo-com.png" title="Sumo.com" /></a>
       <span class="text">
         <p>As an early engineer at Sumo.com I got to play a role in building some of the core features that have helped thousands of online businesses to grow.<a class="more" href="work/sumo">more</a></p>
       </span>
     </span>
     <span class="job_col">
-      <a class="image logo" href="work/bouncing-pixel"><img src="images/logos/bouncing-pixel.png" title="Bouncing Pixel" /></a>
+      <a class="image logo page" href="work/bouncing-pixel"><img src="images/logos/bouncing-pixel.png" title="Bouncing Pixel" /></a>
       <span class="text">
         <p>As the lead developer at Bouncing Pixel's studio I was able to work on a wide array of awesome projects. A bit of everything, from a games to custom web apps.<a class="more" href="work/bouncing-pixel">more</a></p>
       </span>
@@ -41,7 +41,7 @@
   </div>
   <div class="job_row">
     <span class="job_col">
-      <a class="image logo" href="work/mote-labs"><img src="images/logos/mote-labs.png" title="Mote Labs" /></a>
+      <a class="image logo page" href="work/mote-labs"><img src="images/logos/mote-labs.png" title="Mote Labs" /></a>
       <span class="text">
         <p>As the founder and engineer of Mote Labs I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.<a class="more" href="work/mote-labs">more</a></p>
       </span>
