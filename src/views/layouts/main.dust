@@ -33,6 +33,9 @@
     <meta property="og:description" content="Full stack web developer and road cyclist in Austin, Texas">
     <meta property="og:url" content="https://robertdalesmith.com/">
     <meta property="og:image" content="{base}images/icons/og-image.png">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31879246-1"></script>
   </head>
   <body>
     <div class="page {+pageType/}">
