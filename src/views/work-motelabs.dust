@@ -19,6 +19,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/chromemote" id="chromemote"></a>
   <h3 class="title">Chromemote</h3>
   <span class="text">
     <span class="screenshot link left">
@@ -35,6 +36,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/flinger" id="flinger"></a>
   <h3 class="title">Flinger</h3>
   <span class="text">
     <span class="screenshot link right">

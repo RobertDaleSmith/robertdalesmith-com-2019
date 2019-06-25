@@ -19,6 +19,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/bp-otc-2015" id="bp-otc-2015"></a>
   <h3 class="title">BP Interactive Map</h3>
   <span class="text">
     <span class="screenshot link">
@@ -31,6 +32,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/tic-helper" id="tic-helper"></a>
   <h3 class="title">Tic Helper</h3>
   <span class="text">
     <span class="screenshot link left">
@@ -44,6 +46,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/childrens-museum-of-houston" id="childrens-museum-of-houston"></a>
   <h3 class="title">Children's Museum of Houston</h3>
   <span class="text">
     <span class="screenshot link right">
@@ -57,6 +60,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/brave-is-beautiful" id="brave-is-beautiful"></a>
   <h3 class="title">Brave is Beautiful</h3>
   <span class="text">
     <span class="screenshot link left">
@@ -70,6 +74,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/cottonelle" id="cottonelle"></a>
   <h3 class="title">Cottonelle micro-site</h3>
   <span class="text">
     <span class="screenshot link right">

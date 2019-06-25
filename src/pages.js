@@ -102,7 +102,7 @@ function init() {
     pageTitle: document.title
   },
     document.title,
-    window.location.pathname
+    window.location.href
   );
 
   // listen for browser back/forward

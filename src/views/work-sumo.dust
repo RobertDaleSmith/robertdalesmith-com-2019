@@ -19,6 +19,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/chrome-extension" id="chrome-extension"></a>
   <h3 class="title">Browser Extension</h3>
   <span class="text">
     <span class="screenshot left">
@@ -29,6 +30,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/click-triggers" id="click-triggers"></a>
   <h3 class="title">Click Triggers</h3>
   <span class="text">
     <span class="screenshot right">
@@ -45,6 +47,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/content-upgrades" id="content-upgrades"></a>
   <h3 class="title">Content Upgrades</h3>
   <span class="text">
     <span class="screenshot right">
@@ -56,6 +59,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/auto-response-email" id="auto-response-email"></a>
   <h3 class="title">Automatic Email Responder</h3>
   <span class="text">
     <span class="screenshot left">
@@ -68,6 +72,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/email-editor" id="email-editor"></a>
   <h3 class="title">Email Editor</h3>
   <span class="text">
     <span class="screenshot right">
@@ -80,6 +85,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/message-center" id="message-center"></a>
   <h3 class="title">Message Center</h3>
   <span class="text">
     <span class="screenshot left">
@@ -90,6 +96,7 @@
   </span>
 </div>
 <div class="project">
+  <a class="anchor" name="/push-notifications" id="push-notifications"></a>
   <h3 class="title">Push Notifications</h3>
   <span class="text">
     <span class="screenshot right">
