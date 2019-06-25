@@ -2,8 +2,6 @@
 
 import ga from './google-analytics.js';
 import viewer from './image-viewer.js';
-
-// define page routes
 import routes from './routes.js';
 
 function renderContent(template, callback) {
@@ -19,7 +17,7 @@ function loadPage(href, history) {
   const { template, title, type } = routes[pathName];
 
   // already here, nothing to do
-  if (pathName === window.location.pathname) return;
+  if (!history && pathName === window.location.pathname) return;
 
   renderContent(template, function(html) {
 
