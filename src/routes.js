@@ -5,7 +5,8 @@ import bounTemplate from './views/work-bouncingpixel.dust';
 import moteTemplate from './views/work-motelabs.dust';
 import sumoTemplate from './views/work-sumo.dust';
 
-module.exports = {
+// define page routes data
+var routes = {
   '/': {
     base: '/',
     template: homeTemplate,
@@ -31,3 +32,6 @@ module.exports = {
     type: 'work'
   },
 };
+
+// expose routes data
+module.exports = routes;
