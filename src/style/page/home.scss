@@ -2,7 +2,7 @@
   a.home {
     cursor: default;
 
-    &:hover, &:active {
+    &:hover, &:active, &:focus {
       border: 0px;
       outline: none;
     }

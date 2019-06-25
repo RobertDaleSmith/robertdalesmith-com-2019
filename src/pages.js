@@ -18,6 +18,9 @@ function loadPage(href, history) {
   const pathName = getPathName(href);
   const { template, title, type } = routes[pathName];
 
+  // already here, nothing to do
+  if (pathName === window.location.pathname) return;
+
   renderContent(template, function(html) {
 
     // update the page title
