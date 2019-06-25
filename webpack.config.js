@@ -91,23 +91,23 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: '!!dust-html-loader!src/views/home.dust',
+      template: '!!dust-html-loader?pagePath=/!src/views/home.dust',
     }),
     new HtmlWebpackPlugin({
       filename: 'work/sumo/index.html',
-      template: '!!dust-html-loader?base=../../!src/views/work-sumo.dust',
+      template: '!!dust-html-loader?base=../../&pagePath=/work/sumo!src/views/work-sumo.dust',
     }),
     new HtmlWebpackPlugin({
       filename: 'work/bouncing-pixel/index.html',
-      template: '!!dust-html-loader?base=../../!src/views/work-bouncingpixel.dust',
+      template: '!!dust-html-loader?base=../../&pagePath=/work/bouncing-pixel!src/views/work-bouncingpixel.dust',
     }),
     new HtmlWebpackPlugin({
       filename: 'work/mote-labs/index.html',
-      template: '!!dust-html-loader?base=../../!src/views/work-motelabs.dust',
+      template: '!!dust-html-loader?base=../../&pagePath=/work/mote-labs!src/views/work-motelabs.dust',
     }),
     new HtmlWebpackPlugin({
       filename: '404/index.html',
-      template: '!!dust-html-loader?base=/!src/views/404.dust',
+      template: '!!dust-html-loader?base=/&pagePath=/404!src/views/404.dust',
     }),
     new HtmlWebpackInlineSVGPlugin({
         runPreEmit: true,
