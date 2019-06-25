@@ -13,12 +13,13 @@ Wanting to stick with an inexpensive apache hosting package and to keep the webs
 
 ### Build for production
 ```
+npm install
 npm run build
 ```
-Successful compilation will output to `./build` directory.
+Successful builds will output to `./build` directory. The build directory is nuked prior to each build.
 
 
-### Start HMR dev server 
+### Start for dev with HMR 
 ```
 npm start
 ```
