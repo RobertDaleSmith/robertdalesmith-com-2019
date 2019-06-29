@@ -1,5 +1,6 @@
 
 var pages = require('./pages.js');
+var error = require('./404.js');
 var viewer = require('./image-viewer.js');
 
 // load main style sheets
