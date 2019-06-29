@@ -13,19 +13,19 @@ var routes = {
     title: 'Developer',
     type: 'home'
   },
-  '/work/bouncing-pixel': {
+  '/work/bouncing-pixel/': {
     base: '../../',
     template: bounTemplate,
     title: 'Bouncing Pixel',
     type: 'work'
   },
-  '/work/mote-labs': {
+  '/work/mote-labs/': {
     base: '../../',
     template: moteTemplate,
     title: 'Mote Labs',
     type: 'work'
   },
-  '/work/sumo': {
+  '/work/sumo/': {
     base: '../../',
     template: sumoTemplate,
     title: 'Sumo.com',
