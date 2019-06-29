@@ -1,8 +1,8 @@
 RobertDaleSmith.com 2019
 ==========
-The latest interation on my personal website. Primarily built this round for highlighting some of my most recent software development work. But also built for people that want to follow and learn more about me.
+The latest interation on my personal website. Primarily built this around highlighting some of my most recent development work.
 
-Wanting to stick with some inexpensive apache hosting and to keep this website basic, I put together a webpack config that builds and outputs a static HTML website.
+Wanting to stick with an inexpensive apache hosting package and to keep the website basic. I put together a webpack config that builds and outputs a static HTML website from sass and dustjs templates.
 
 ### Dependencies
 - [webpack](https://github.com/webpack) with [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
@@ -13,12 +13,13 @@ Wanting to stick with some inexpensive apache hosting and to keep this website b
 
 ### Build for production
 ```
+npm install
 npm run build
 ```
-Successful compilation will output to `./build` directory.
+Successful builds will output to `./build` directory. The build directory is nuked prior to each build.
 
 
-### Start HMR dev server 
+### Start for dev with HMR 
 ```
 npm start
 ```
