@@ -4,7 +4,7 @@
   <!DOCTYPE html>
   <html>
     <head>
-      <meta charset="UTF-8">
+      <meta charset="utf-8">
       <title>Robert Dale Smith | {+pageTitle/}</title>
 
       <link rel="canonical" href="{pagePath}">
@@ -21,6 +21,7 @@
       <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="msapplication-TileImage" content="/images/icons/rds128k-144.png">
       <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, viewport-fit=cover">
+      <meta name="description" content="Robert is a full stack engineer and road cyclist in Austin, Texas." />
 
       {! Twitter Card data !}
       <meta name="twitter:card" content="summary">
@@ -34,7 +35,7 @@
       <meta property="og:type" content="website">
       <meta property="og:site_name" content="Robert Dale Smith">
       <meta property="og:title" content="Robert Dale Smith | {+pageTitle/}">
-      <meta property="og:description" content="Full stack web developer and road cyclist in Austin, Texas">
+      <meta property="og:description" content="Robert is a full stack engineer and road cyclist in Austin, Texas.">
       <meta property="og:url" content="https://robertdalesmith.com/">
       <meta property="og:image" content="/images/icons/og-image.png">
 
