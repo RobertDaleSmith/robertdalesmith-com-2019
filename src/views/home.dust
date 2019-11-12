@@ -27,40 +27,46 @@
   <h3 class="title">Work</h3>
   <div class="job_row">
     <span class="job_col">
+      <a class="image logo page" href="https://techsbox.com/"><img src="images/logos/techsbox.png" title="Techsbox.com" /></a>
+      <span class="text">
+        <p>As the sole founder of <a class="try" href="work/sumo/">Techsbox.com</a> I have designed, built, marketed and sold a product that makes running an IT service business easier and much more affordable.</p>
+      </span>
+    </span>
+    <span class="job_col">
       <a class="image logo page" href="work/sumo/"><img src="images/logos/sumo-com.png" title="Sumo.com" /></a>
       <span class="text">
         <p>As an early engineer at Sumo.com I got to play a role in building some of the core features that have helped thousands of online businesses to grow.<a class="more" href="work/sumo/">more</a></p>
       </span>
     </span>
+  </div>
+  <div class="job_row">
     <span class="job_col">
       <a class="image logo page" href="work/bouncing-pixel/"><img src="images/logos/bouncing-pixel.png" title="Bouncing Pixel" /></a>
       <span class="text">
         <p>As the lead developer at Bouncing Pixel's studio I was able to work on a wide array of awesome projects. A bit of everything, from a games to custom web apps.<a class="more" href="work/bouncing-pixel/">more</a></p>
       </span>
     </span>
-  </div>
-  <div class="job_row">
     <span class="job_col">
       <a class="image logo page" href="work/mote-labs/"><img src="images/logos/mote-labs.png" title="Mote Labs" /></a>
       <span class="text">
         <p>As the founder and engineer of Mote Labs I built a product that scaled to over 30k daily active users. I went full on startup mode and learned a lot by doing.<a class="more" href="work/mote-labs/">more</a></p>
       </span>
     </span>
-    <span class="job_col">
+    {! <span class="job_col">
       <span class="image logo you" style="background-color: #f6f6f6"></span>
       <span class="text">
         <p>As a human I am seeking an inspiring team with a vision I can get excited about. I love having fun working hard with a team, on things we all believe in.<a class="more" href="mailto:robert@robertdalesmith.com">hire me</a></p>
       </span>
-    </span>
+    </span> !}
   </div>
 </div>
 <div class="work">
   <h3 class="title">PLAY</h3>
   <div class="job_row">
     <span class="job_col">
-      <a class="image logo" target="_blank" href="http://firesauce.net"><img src="images/logos/fire-sauce.png" title="Fire Sauce TV" /></a>
+      <a class="image logo" target="_blank" href="http://www.firesauce.net/#/RobertDaleSmith"><img src="images/logos/fire-sauce.png" title="Fire Sauce TV" /></a>
       <span class="text">
-        <p>Built <a class="try" target="_blank" href="http://firesauce.net/">firesauce.net</a> to crowdsource my never ending search for something good to watch. Easily find/watch recently tweeted YouTube videos by any Twitter user.</p>
+        <p>Built <a class="try" target="_blank" href="http://www.firesauce.net/#/RobertDaleSmith">firesauce.net</a> to crowdsource my never ending search for something good to watch. Easily find/watch recently tweeted YouTube videos by any Twitter user.</p>
       </span>
     </span>
     <span class="job_col">
