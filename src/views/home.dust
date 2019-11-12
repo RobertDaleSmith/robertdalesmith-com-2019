@@ -27,9 +27,9 @@
   <h3 class="title">Work</h3>
   <div class="job_row">
     <span class="job_col">
-      <a class="image logo page" href="https://techsbox.com/"><img src="images/logos/techsbox.png" title="Techsbox.com" /></a>
+      <a class="image logo page" target="_blank" href="https://techsbox.com/"><img src="images/logos/techsbox.png" title="Techsbox.com" /></a>
       <span class="text">
-        <p>As the sole founder of <a class="try" href="work/sumo/">Techsbox.com</a> I have designed, built, marketed and sold a product that makes running an IT service business easier and much more affordable.</p>
+        <p>As the sole founder of <a class="try" target="_blank" href="work/sumo/">Techsbox.com</a> I have designed, built, marketed and sold a product that makes running an IT service business easier and much more affordable.</p>
       </span>
     </span>
     <span class="job_col">
