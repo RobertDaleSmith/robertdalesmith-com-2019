@@ -24,7 +24,7 @@
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^5.0.4",
+    "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^2.1.1",
     "dust-html-loader": "^1.0.2",
     "dust-loader-complete": "^4.1.2",
