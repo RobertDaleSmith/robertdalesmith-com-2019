@@ -26,7 +26,7 @@
       <img class="thumbnail" src="../../images/screenshots/sumo-chrome-ext.png" title="View Screenshot" />
     </span>
     <p>No one asked me to build a Chrome extension but I wanted it to exist. Ended up being pretty useful for both users and our dev and CX teams.</p>
-    <p>To access our app from your own website, you could type S, U, M, O, and [up-arrow]. The extension I built made it a single click.</p><p>Also, hidden within the extension were a half-dozen useful development tools we all used for troubleshooting issues. One tool made it easy to swap out production for dev versions of our app directly on users sites for local testing before deploying changes.</p>
+    <p>To access our app from your own website, you could type S, U, M, O, and [up-arrow]. The extension I built made it a single click.</p><p>Also, hidden within the extension were a half-dozen useful development tools we all used for troubleshooting issues. One tool made it easy to swap out production for dev versions of our app directly on users sites for local testing before deploying changes. Try it out <a href="https://chrome.google.com/webstore/detail/sumo/dlgipkaoljiajmolhibpngjppeckkjjp" target="_blank">here</a>.</p>
   </span>
 </div>
 <div class="project">

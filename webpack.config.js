@@ -15,7 +15,7 @@ module.exports = {
   devServer: {
     contentBase: './build',
     compress: false,
-    port: 3000,
+    port: 4000,
   },
   output: {
     filename: devMode ? 'js/[name].js' : 'js/[name].[hash].js',
