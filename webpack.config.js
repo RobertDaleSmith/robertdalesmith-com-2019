@@ -49,7 +49,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/ ,
         exclude: /(node_modules|bower_components)/,
         use: { 
           loader: 'babel-loader',
@@ -64,7 +64,7 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              hmr: devMode,
+              // hmr: devMode,
             },
           }, 'css-loader', {
             loader: 'sass-loader'
