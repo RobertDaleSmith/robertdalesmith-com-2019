@@ -27,9 +27,23 @@
   <h3 class="title">Work</h3>
   <div class="job_row">
     <span class="job_col">
+      <a class="image logo page" target="_blank" href="https://controlleradapter.com/"><img src="images/logos/controller-adapter.png" title="Techsbox.com" /></a>
+      <span class="text">
+        <p>A passion project that has evolved into a full blown ecommerce store selling niche retro video game hardware accessories that I create from scratch. <a class="more" target="_blank" href="https://controlleradapter.com/">more</a></p>
+      </span>
+    </span>
+    <span class="job_col">
+      <a class="image logo page" target="_blank" href="https://pushnami.com"><img src="images/logos/pushnami.png" title="Sumo.com" /></a>
+      <span class="text">
+        <p>As a Staff Software Engineer I lead the development of a new Shopify app, built internal tools, and contibuted to scaling to over a billion push messages a day. <a class="more" target="_blank" href="https://pushnami.com/">more</a></p>
+      </span>
+    </span>
+  </div>
+  <div class="job_row">
+    <span class="job_col">
       <a class="image logo page" target="_blank" href="https://techsbox.com/"><img src="images/logos/techsbox.png" title="Techsbox.com" /></a>
       <span class="text">
-        <p>As the sole founder of <a class="try" target="_blank" href="https://techsbox.com/">Techsbox.com</a> I have designed, built, marketed and sold a product that makes running an IT service business easier and much more affordable.</p>
+        <p>As the sole founder of <a class="try" target="_blank" href="https://techsbox.com/">Techsbox.com</a> I had designed, built, marketed and sold a product that made running an IT service business easier and much more affordable.</p>
       </span>
     </span>
     <span class="job_col">
